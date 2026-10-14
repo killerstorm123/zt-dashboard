@@ -1,0 +1,549 @@
+{
+ "title": "涨停板策略作战看板",
+ "subtitle": "次日涨停候选池 · 纸面组合 · 竞价晨报 · 回测回溯 · 推送记录",
+ "timezone": "Asia/Shanghai",
+ "generatedAt": "2026-10-14T10:33:35+08:00",
+ "freshness": {
+  "latestDataDate": "2026-10-14",
+  "latestCapturedAt": "2026-10-14T10:29:26+08:00",
+  "source": "zt_screener 定时任务快照"
+ },
+ "availableDates": [
+  "2026-10-13",
+  "2026-10-14"
+ ],
+ "defaultRange": "ALL",
+ "kpis": [
+  {
+   "id": "kpi-equity",
+   "label": "纸面组合净值",
+   "value": "¥1,000,000",
+   "delta": "待今晚 21:15 首次结算",
+   "detail": "起始资金 ¥1,000,000 ｜ 1日持仓 · 开盘买收盘卖"
+  },
+  {
+   "id": "kpi-return",
+   "label": "累计收益率",
+   "value": "—",
+   "delta": "纸面组合今日启动",
+   "detail": "自 2026-10-14 起逐日滚动"
+  },
+  {
+   "id": "kpi-winrate",
+   "label": "胜率（已平仓）",
+   "value": "—",
+   "delta": "暂无成交",
+   "detail": "单票收益>0 占比"
+  },
+  {
+   "id": "kpi-mdd",
+   "label": "最大回撤",
+   "value": "—",
+   "delta": "待积累",
+   "detail": "纸面组合逐日净值"
+  },
+  {
+   "id": "kpi-sentiment",
+   "label": "最新情绪阶段",
+   "value": "扩张",
+   "delta": "涨停 67 家 ｜ 炸板率 22%",
+   "detail": "1进2晋级率 0.179 ｜ 情绪分 0.5"
+  },
+  {
+   "id": "kpi-fresh",
+   "label": "数据新鲜度",
+   "value": "2026-10-13",
+   "delta": "收盘口径",
+   "detail": "更新于 2026-10-13T21:17:52+08:00"
+  }
+ ],
+ "datasets": {
+  "equity": [],
+  "sentiment": [
+   {
+    "date": "2026-10-13",
+    "zt": 67,
+    "zhaban_rate": 22.1,
+    "promo": 0.179,
+    "stage": "扩张"
+   }
+  ],
+  "monthly": [
+   {
+    "month": "2025-09",
+    "zt_rate": 43.8,
+    "n": 80
+   },
+   {
+    "month": "2025-10",
+    "zt_rate": 36.3,
+    "n": 179
+   },
+   {
+    "month": "2025-11",
+    "zt_rate": 52.0,
+    "n": 177
+   },
+   {
+    "month": "2025-12",
+    "zt_rate": 48.2,
+    "n": 282
+   },
+   {
+    "month": "2026-01",
+    "zt_rate": 50.6,
+    "n": 180
+   },
+   {
+    "month": "2026-02",
+    "zt_rate": 37.6,
+    "n": 170
+   },
+   {
+    "month": "2026-03",
+    "zt_rate": 36.9,
+    "n": 222
+   },
+   {
+    "month": "2026-04",
+    "zt_rate": 31.5,
+    "n": 219
+   },
+   {
+    "month": "2026-05",
+    "zt_rate": 38.9,
+    "n": 221
+   },
+   {
+    "month": "2026-06",
+    "zt_rate": 32.3,
+    "n": 235
+   },
+   {
+    "month": "2026-07",
+    "zt_rate": 33.2,
+    "n": 253
+   },
+   {
+    "month": "2026-08",
+    "zt_rate": 47.5,
+    "n": 202
+   },
+   {
+    "month": "2026-09",
+    "zt_rate": 32.0,
+    "n": 222
+   },
+   {
+    "month": "2026-10",
+    "zt_rate": 41.7,
+    "n": 12
+   }
+  ],
+  "latestPool": [
+   {
+    "date": "2026-10-13",
+    "rank": 1,
+    "code": "603096",
+    "name": "新经典",
+    "industry": "出版",
+    "lianban": 3,
+    "first_time": "09:25",
+    "seal_pct": 6.7,
+    "winner": 97.7,
+    "score": 72.2,
+    "inst_net": null,
+    "famous": "-"
+   },
+   {
+    "date": "2026-10-13",
+    "rank": 2,
+    "code": "605136",
+    "name": "丽人丽妆",
+    "industry": "互联网电",
+    "lianban": 3,
+    "first_time": "09:30",
+    "seal_pct": 2.2,
+    "winner": 99.7,
+    "score": 64.2,
+    "inst_net": null,
+    "famous": "-"
+   },
+   {
+    "date": "2026-10-13",
+    "rank": 3,
+    "code": "002343",
+    "name": "慈文传媒",
+    "industry": "影视院线",
+    "lianban": 3,
+    "first_time": "09:25",
+    "seal_pct": 7.2,
+    "winner": 98.1,
+    "score": 63.0,
+    "inst_net": null,
+    "famous": "-"
+   },
+   {
+    "date": "2026-10-13",
+    "rank": 4,
+    "code": "605577",
+    "name": "龙版传媒",
+    "industry": "出版",
+    "lianban": 3,
+    "first_time": "09:30",
+    "seal_pct": 0.6,
+    "winner": 99.3,
+    "score": 60.7,
+    "inst_net": null,
+    "famous": "-"
+   },
+   {
+    "date": "2026-10-13",
+    "rank": 5,
+    "code": "002696",
+    "name": "百洋股份",
+    "industry": "饲料",
+    "lianban": 3,
+    "first_time": "09:34",
+    "seal_pct": 2.3,
+    "winner": 99.4,
+    "score": 60.0,
+    "inst_net": null,
+    "famous": "-"
+   },
+   {
+    "date": "2026-10-13",
+    "rank": 6,
+    "code": "000823",
+    "name": "超声电子",
+    "industry": "元件",
+    "lianban": 1,
+    "first_time": "09:31",
+    "seal_pct": 2.9,
+    "winner": 74.3,
+    "score": 55.8,
+    "inst_net": null,
+    "famous": "-"
+   },
+   {
+    "date": "2026-10-13",
+    "rank": 7,
+    "code": "603188",
+    "name": "亚邦股份",
+    "industry": "化学制品",
+    "lianban": 1,
+    "first_time": "09:32",
+    "seal_pct": 1.7,
+    "winner": 96.7,
+    "score": 54.6,
+    "inst_net": null,
+    "famous": "-"
+   },
+   {
+    "date": "2026-10-13",
+    "rank": 8,
+    "code": "002917",
+    "name": "金奥博",
+    "industry": "化学制品",
+    "lianban": 1,
+    "first_time": "09:25",
+    "seal_pct": 3.4,
+    "winner": 92.9,
+    "score": 53.3,
+    "inst_net": null,
+    "famous": "-"
+   },
+   {
+    "date": "2026-10-13",
+    "rank": 9,
+    "code": "001231",
+    "name": "农心科技",
+    "industry": "农化制品",
+    "lianban": 2,
+    "first_time": "09:30",
+    "seal_pct": 20.6,
+    "winner": 99.8,
+    "score": 51.4,
+    "inst_net": -2726.0,
+    "famous": "-"
+   },
+   {
+    "date": "2026-10-13",
+    "rank": 10,
+    "code": "603968",
+    "name": "醋化股份",
+    "industry": "化学制品",
+    "lianban": 2,
+    "first_time": "09:36",
+    "seal_pct": 0.8,
+    "winner": 99.6,
+    "score": 49.5,
+    "inst_net": null,
+    "famous": "-"
+   },
+   {
+    "date": "2026-10-13",
+    "rank": 11,
+    "code": "600693",
+    "name": "东百集团",
+    "industry": "一般零售",
+    "lianban": 2,
+    "first_time": "09:25",
+    "seal_pct": 1.2,
+    "winner": 99.1,
+    "score": 49.5,
+    "inst_net": null,
+    "famous": "-"
+   },
+   {
+    "date": "2026-10-13",
+    "rank": 12,
+    "code": "300107",
+    "name": "建新股份",
+    "industry": "化学制品",
+    "lianban": 1,
+    "first_time": "09:59",
+    "seal_pct": 2.1,
+    "winner": 99.8,
+    "score": 48.5,
+    "inst_net": -853.0,
+    "famous": "√"
+   }
+  ],
+  "latestMorning": [
+   {
+    "date": "2026-10-14",
+    "code": "603096",
+    "name": "新经典",
+    "lianban": 3,
+    "score": 72.2,
+    "open_pct": 4.91,
+    "vol_ratio": 2254.16,
+    "advice": "接力",
+    "note": "接力区 量比2254.2量能足"
+   },
+   {
+    "date": "2026-10-14",
+    "code": "002917",
+    "name": "金奥博",
+    "lianban": 1,
+    "score": 53.3,
+    "open_pct": 6.91,
+    "vol_ratio": 1172.87,
+    "advice": "接力",
+    "note": "接力区 量比1172.9量能足"
+   },
+   {
+    "date": "2026-10-14",
+    "code": "603968",
+    "name": "醋化股份",
+    "lianban": 2,
+    "score": 49.5,
+    "open_pct": 4.94,
+    "vol_ratio": 356.92,
+    "advice": "接力",
+    "note": "接力区 量比356.9量能足"
+   },
+   {
+    "date": "2026-10-14",
+    "code": "600693",
+    "name": "东百集团",
+    "lianban": 2,
+    "score": 49.5,
+    "open_pct": 0.81,
+    "vol_ratio": 437.23,
+    "advice": "观望",
+    "note": "争议区0.8%(0-3%)"
+   },
+   {
+    "date": "2026-10-14",
+    "code": "300107",
+    "name": "建新股份",
+    "lianban": 1,
+    "score": 48.5,
+    "open_pct": 1.97,
+    "vol_ratio": 648.0,
+    "advice": "观望",
+    "note": "争议区2.0%(0-3%)"
+   },
+   {
+    "date": "2026-10-14",
+    "code": "002343",
+    "name": "慈文传媒",
+    "lianban": 3,
+    "score": 63.0,
+    "open_pct": 9.65,
+    "vol_ratio": 723.22,
+    "advice": "放弃",
+    "note": "高开9.6%兑现风险区(>7%)"
+   },
+   {
+    "date": "2026-10-14",
+    "code": "605136",
+    "name": "丽人丽妆",
+    "lianban": 3,
+    "score": 64.2,
+    "open_pct": 9.98,
+    "vol_ratio": 890.6,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-10-14",
+    "code": "002696",
+    "name": "百洋股份",
+    "lianban": 3,
+    "score": 60.0,
+    "open_pct": 10.05,
+    "vol_ratio": 29.22,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-10-14",
+    "code": "000823",
+    "name": "超声电子",
+    "lianban": 1,
+    "score": 55.8,
+    "open_pct": 9.99,
+    "vol_ratio": 81.59,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-10-14",
+    "code": "603188",
+    "name": "亚邦股份",
+    "lianban": 1,
+    "score": 54.6,
+    "open_pct": 10.07,
+    "vol_ratio": 452.71,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-10-14",
+    "code": "605577",
+    "name": "龙版传媒",
+    "lianban": 3,
+    "score": 60.7,
+    "open_pct": -10.0,
+    "vol_ratio": 354.64,
+    "advice": "回避",
+    "note": "低开-10.0%走弱"
+   },
+   {
+    "date": "2026-10-14",
+    "code": "001231",
+    "name": "农心科技",
+    "lianban": 2,
+    "score": 51.4,
+    "open_pct": -7.06,
+    "vol_ratio": 473.11,
+    "advice": "回避",
+    "note": "低开-7.1%且昨日机构净卖-2,726万"
+   }
+  ],
+  "trades": [],
+  "pushes": [
+   {
+    "date": "2026-10-14",
+    "time": "09:19",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b63d9c674a0a4cf86002f5b14a43",
+    "note": "20261013 完整报告文件"
+   },
+   {
+    "date": "2026-10-14",
+    "time": "09:19",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b63d9c68d50a8ce3afeec7ddcbb4",
+    "note": "20261013 摘要+前10名单"
+   },
+   {
+    "date": "2026-10-13",
+    "time": "21:17",
+    "task": "evening",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "20261013 候选池报告生成（12只，扩张期）"
+   }
+  ],
+  "compare": [
+   {
+    "group": "基线:全体涨停股",
+    "n": 17389,
+    "zt_rate": 19.1,
+    "open_prem": 1.86,
+    "day_ret": 0.04,
+    "close_ret": 1.6,
+    "exec_ratio": 87.0
+   },
+   {
+    "group": "候选:v1_初版因子",
+    "n": 2654,
+    "zt_rate": 37.1,
+    "open_prem": 3.6,
+    "day_ret": 0.4,
+    "close_ret": 3.24,
+    "exec_ratio": 69.0
+   },
+   {
+    "group": "候选:v3_单变量修订",
+    "n": 2654,
+    "zt_rate": 37.3,
+    "open_prem": 3.85,
+    "day_ret": 0.15,
+    "close_ret": 3.23,
+    "exec_ratio": 68.0
+   },
+   {
+    "group": "候选:v4_付费数据增强",
+    "n": 2654,
+    "zt_rate": 39.6,
+    "open_prem": 4.26,
+    "day_ret": 0.01,
+    "close_ret": 3.5,
+    "exec_ratio": 65.0
+   },
+   {
+    "group": "候选:v5_席位增强",
+    "n": 2654,
+    "zt_rate": 39.6,
+    "open_prem": 4.19,
+    "day_ret": 0.06,
+    "close_ret": 3.49,
+    "exec_ratio": 65.0
+   }
+  ]
+ },
+ "sourceSnippets": {
+  "equityCurve": "papers = read_snapshots(\"paper\")  # 每日纸面结算快照\nequity = [{date, equity, ret_pct, n_buy, n_skip} for p in papers]\nfront-end filters rows by active date range",
+  "sentimentTrend": "pools = read_snapshots(\"pool\")\nsentiment = [{date, zt:涨停家数, zhaban_rate:炸板率*100, stage} for p in pools]",
+  "monthlyZt": "bt = backtest_summary.json  # backtest_snapshot.py 每周刷新\nmonthly = [{month, zt_rate:候选池次日再涨停率}]"
+ },
+ "analysis": "分析口径\n- read_snapshots() 读取 data/snapshots/ 下 pool_/morning_/paper_ 前缀快照，同日取 captured_at 最新。\n- 纸面组合（paper.py）：T-1 日 21:15 候选池 → T 日开盘等权买入（高开>7% 弃买、一字买不进）→ T 日收盘全卖；\n  成本：佣金万2.5（最低5元双边）+ 卖出印花税 0.05% + 买入滑点 0.2%；起始资金 100 万。\n- 竞价晨报（morning_job.py）：09:26 新浪行情竞价匹配价，按预案分层（>7% 放弃 / 3-7% 接力看量比 / 0-3% 观望 / 低开回避）。\n- 回测区（backtest_snapshot.py）：v5 席位增强权重，250 交易日事件研究，基线=全体涨停股。\n- 所有指标由快照数据程序化计算，无手工录入。",
+ "schedules": [
+  {
+   "name": "晚间候选池任务",
+   "cron": "每交易日 21:15",
+   "id": "eac0fd4f",
+   "desc": "回补数据 → 生成报告+池快照 → 纸面结算 → 重建看板+推送 GitHub → 飞书推送"
+  },
+  {
+   "name": "竞价晨报任务",
+   "cron": "每交易日 09:26",
+   "id": "e0a2a66b",
+   "desc": "读昨日池 → 新浪竞价 → 分层建议 → 快照落盘 → 重建看板+推送 GitHub → 飞书推送"
+  }
+ ],
+ "bt_window": {
+  "样本区间": "2025-09-19 ~ 2026-10-08",
+  "交易日数": 250
+ }
+}
