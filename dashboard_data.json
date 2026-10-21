@@ -2,10 +2,10 @@
  "title": "涨停板策略作战看板",
  "subtitle": "次日涨停候选池 · 纸面组合 · 竞价晨报 · 回测回溯 · 推送记录",
  "timezone": "Asia/Shanghai",
- "generatedAt": "2026-10-20T21:18:17+08:00",
+ "generatedAt": "2026-10-21T09:27:38+08:00",
  "freshness": {
   "latestDataDate": "20261020",
-  "latestCapturedAt": "2026-10-20T21:17:28+08:00",
+  "latestCapturedAt": "2026-10-21T09:27:29+08:00",
   "source": "zt_screener 定时任务快照"
  },
  "availableDates": [
@@ -15,6 +15,7 @@
   "2026-10-16",
   "2026-10-19",
   "2026-10-20",
+  "2026-10-21",
   "20260408",
   "20260409",
   "20260410",
@@ -461,92 +462,92 @@
   ],
   "latestMorning": [
    {
-    "date": "2026-10-20",
-    "code": "600148",
-    "name": "长春一东",
+    "date": "2026-10-21",
+    "code": "002164",
+    "name": "宁波东力",
     "lianban": 2,
-    "score": 69.0,
-    "open_pct": 6.09,
-    "vol_ratio": 199.18,
-    "advice": "接力",
-    "note": "接力区 量比199.2量能足"
+    "score": 55.1,
+    "open_pct": 0.19,
+    "vol_ratio": 12.88,
+    "advice": "观望",
+    "note": "争议区0.2%(0-3%)"
    },
    {
-    "date": "2026-10-20",
-    "code": "002724",
-    "name": "海洋王",
-    "lianban": 2,
-    "score": 54.4,
-    "open_pct": 4.28,
-    "vol_ratio": 49.22,
-    "advice": "接力",
-    "note": "接力区 量比49.2量能足"
+    "date": "2026-10-21",
+    "code": "603400",
+    "name": "华之杰",
+    "lianban": 1,
+    "score": 47.0,
+    "open_pct": 0.45,
+    "vol_ratio": 5.73,
+    "advice": "观望",
+    "note": "争议区0.4%(0-3%)"
    },
    {
-    "date": "2026-10-20",
-    "code": "603197",
-    "name": "保隆科技",
-    "lianban": 2,
-    "score": 69.0,
-    "open_pct": 8.2,
-    "vol_ratio": 154.45,
-    "advice": "放弃",
-    "note": "高开8.2%兑现风险区(>7%)"
-   },
-   {
-    "date": "2026-10-20",
-    "code": "600860",
-    "name": "京城股份",
-    "lianban": 2,
-    "score": 57.0,
-    "open_pct": 7.24,
-    "vol_ratio": 180.9,
-    "advice": "放弃",
-    "note": "高开7.2%兑现风险区(>7%)"
-   },
-   {
-    "date": "2026-10-20",
-    "code": "600178",
-    "name": "东安动力",
-    "lianban": 2,
-    "score": 69.0,
-    "open_pct": 10.02,
-    "vol_ratio": 55.33,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "code": "003029",
     "name": "吉大正元",
+    "lianban": 4,
+    "score": 57.3,
+    "open_pct": 8.12,
+    "vol_ratio": 47.44,
+    "advice": "放弃",
+    "note": "高开8.1%兑现风险区(>7%)"
+   },
+   {
+    "date": "2026-10-21",
+    "code": "603278",
+    "name": "大业股份",
     "lianban": 3,
-    "score": 67.2,
-    "open_pct": 10.0,
-    "vol_ratio": 51.79,
+    "score": 67.4,
+    "open_pct": 10.01,
+    "vol_ratio": 12.29,
     "advice": "买不进",
     "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-10-20",
-    "code": "603348",
-    "name": "文灿股份",
-    "lianban": 2,
-    "score": 61.8,
-    "open_pct": -0.95,
-    "vol_ratio": 65.08,
-    "advice": "回避",
-    "note": "低开-1.0%走弱"
+    "date": "2026-10-21",
+    "code": "600178",
+    "name": "东安动力",
+    "lianban": 3,
+    "score": 63.2,
+    "open_pct": 9.99,
+    "vol_ratio": 294.67,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-10-20",
-    "code": "002085",
-    "name": "万丰奥威",
-    "lianban": 2,
-    "score": 61.8,
-    "open_pct": -1.83,
-    "vol_ratio": 37.05,
+    "date": "2026-10-21",
+    "code": "002724",
+    "name": "海洋王",
+    "lianban": 3,
+    "score": 52.1,
+    "open_pct": 10.04,
+    "vol_ratio": 10.87,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-10-21",
+    "code": "600860",
+    "name": "京城股份",
+    "lianban": 3,
+    "score": 61.3,
+    "open_pct": -5.96,
+    "vol_ratio": 56.68,
     "advice": "回避",
-    "note": "低开-1.8%走弱"
+    "note": "低开-6.0%走弱"
+   },
+   {
+    "date": "2026-10-21",
+    "code": "600148",
+    "name": "长春一东",
+    "lianban": 3,
+    "score": 53.5,
+    "open_pct": -3.3,
+    "vol_ratio": 45.45,
+    "advice": "回避",
+    "note": "低开-3.3%且昨日机构净卖-1,619万"
    }
   ],
   "trades": [
@@ -802,6 +803,60 @@
    }
   ],
   "pushes": [
+   {
+    "date": "2026-10-20",
+    "time": "21:28",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b6242886048a0c0b11b047b4b298",
+    "note": "20261020 摘要+报告文件已发"
+   },
+   {
+    "date": "2026-10-20",
+    "time": "21:27",
+    "task": "dashboard",
+    "channel": "github",
+    "status": "ok",
+    "message_id": "-",
+    "note": "Pages 推送：重试后成功 5185a6d..e610acd"
+   },
+   {
+    "date": "2026-10-20",
+    "time": "21:25",
+    "task": "dashboard",
+    "channel": "github",
+    "status": "fail",
+    "message_id": "-",
+    "note": "Pages 推送：github.com 443 连接超时，4次重试失败"
+   },
+   {
+    "date": "2026-10-20",
+    "time": "21:25",
+    "task": "theme",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "板块快照：主线2个/发酵3个"
+   },
+   {
+    "date": "2026-10-20",
+    "time": "21:25",
+    "task": "evening",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "20261020 报告生成（8只，复苏）"
+   },
+   {
+    "date": "2026-10-20",
+    "time": "21:25",
+    "task": "paper",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "结算净值 ¥975,058（+0.87%），买入 4 只；策略净值 ¥1,082,970（+4.25%），买入 2 只"
+   },
    {
     "date": "2026-10-20",
     "time": "09:29",
