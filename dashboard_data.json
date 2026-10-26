@@ -2,10 +2,10 @@
  "title": "涨停板策略作战看板",
  "subtitle": "次日涨停候选池 · 纸面组合 · 竞价晨报 · 回测回溯 · 推送记录",
  "timezone": "Asia/Shanghai",
- "generatedAt": "2026-10-23T21:17:03+08:00",
+ "generatedAt": "2026-10-26T09:27:43+08:00",
  "freshness": {
   "latestDataDate": "20261023",
-  "latestCapturedAt": "2026-10-23T21:16:40+08:00",
+  "latestCapturedAt": "2026-10-26T09:27:33+08:00",
   "source": "zt_screener 定时任务快照"
  },
  "availableDates": [
@@ -18,6 +18,7 @@
   "2026-10-21",
   "2026-10-22",
   "2026-10-23",
+  "2026-10-26",
   "20260413",
   "20260414",
   "20260415",
@@ -604,59 +605,169 @@
   ],
   "latestMorning": [
    {
-    "date": "2026-10-23",
-    "code": "603278",
-    "name": "大业股份",
-    "lianban": 5,
-    "score": 73.0,
-    "open_pct": -4.0,
-    "vol_ratio": 54.23,
-    "advice": "弱转强关注",
-    "note": "低开放量(量比54.2)高分票博弈"
+    "date": "2026-10-26",
+    "code": "603280",
+    "name": "南方路机",
+    "lianban": 2,
+    "score": 47.8,
+    "open_pct": 4.91,
+    "vol_ratio": 119.67,
+    "advice": "接力",
+    "note": "接力区 量比119.7量能足"
    },
    {
-    "date": "2026-10-23",
-    "code": "603350",
-    "name": "安乃达",
+    "date": "2026-10-26",
+    "code": "002982",
+    "name": "湘佳股份",
     "lianban": 1,
-    "score": 53.3,
-    "open_pct": 0.0,
-    "vol_ratio": 83.3,
-    "advice": "观望",
-    "note": "争议区0.0%(0-3%)"
+    "score": 46.2,
+    "open_pct": 4.59,
+    "vol_ratio": 81.43,
+    "advice": "接力",
+    "note": "接力区 量比81.4量能足"
    },
    {
-    "date": "2026-10-23",
-    "code": "600293",
-    "name": "三峡新材",
-    "lianban": 3,
-    "score": 59.4,
-    "open_pct": 9.94,
-    "vol_ratio": 1412.99,
+    "date": "2026-10-26",
+    "code": "002535",
+    "name": "林州重机",
+    "lianban": 2,
+    "score": 61.6,
+    "open_pct": 2.97,
+    "vol_ratio": 49.37,
+    "advice": "观望",
+    "note": "争议区3.0%(0-3%)"
+   },
+   {
+    "date": "2026-10-26",
+    "code": "003021",
+    "name": "兆威机电",
+    "lianban": 2,
+    "score": 47.3,
+    "open_pct": 1.38,
+    "vol_ratio": 16.59,
+    "advice": "观望",
+    "note": "争议区1.4%(0-3%)"
+   },
+   {
+    "date": "2026-10-26",
+    "code": "301699",
+    "name": "洛轴股份",
+    "lianban": 1,
+    "score": 47.0,
+    "open_pct": 1.8,
+    "vol_ratio": 10.76,
+    "advice": "观望",
+    "note": "争议区1.8%(0-3%)"
+   },
+   {
+    "date": "2026-10-26",
+    "code": "000678",
+    "name": "襄阳轴承",
+    "lianban": 2,
+    "score": 50.3,
+    "open_pct": 7.26,
+    "vol_ratio": 14.52,
+    "advice": "放弃",
+    "note": "高开7.3%兑现风险区(>7%)"
+   },
+   {
+    "date": "2026-10-26",
+    "code": "603028",
+    "name": "赛福天",
+    "lianban": 2,
+    "score": 64.8,
+    "open_pct": 9.95,
+    "vol_ratio": 47.19,
     "advice": "买不进",
     "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-10-23",
-    "code": "002724",
-    "name": "海洋王",
-    "lianban": 5,
-    "score": 62.7,
-    "open_pct": -0.62,
-    "vol_ratio": 27.2,
-    "advice": "回避",
-    "note": "低开-0.6%走弱"
+    "date": "2026-10-26",
+    "code": "600838",
+    "name": "上海九百",
+    "lianban": 3,
+    "score": 61.2,
+    "open_pct": 10.0,
+    "vol_ratio": 122.71,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-10-23",
-    "code": "600202",
-    "name": "哈空调",
+    "date": "2026-10-26",
+    "code": "603089",
+    "name": "正裕工业",
     "lianban": 2,
-    "score": 55.1,
-    "open_pct": -0.98,
-    "vol_ratio": 15.49,
+    "score": 58.7,
+    "open_pct": 10.01,
+    "vol_ratio": 30.08,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-10-26",
+    "code": "603278",
+    "name": "大业股份",
+    "lianban": 6,
+    "score": 58.4,
+    "open_pct": 10.03,
+    "vol_ratio": 76.69,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-10-26",
+    "code": "301502",
+    "name": "华阳智能",
+    "lianban": 2,
+    "score": 58.1,
+    "open_pct": 20.0,
+    "vol_ratio": 94.12,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-10-26",
+    "code": "603933",
+    "name": "睿能科技",
+    "lianban": 2,
+    "score": 55.6,
+    "open_pct": 9.98,
+    "vol_ratio": 39.14,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-10-26",
+    "code": "603528",
+    "name": "多伦科技",
+    "lianban": 2,
+    "score": 50.8,
+    "open_pct": 9.95,
+    "vol_ratio": 18.54,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-10-26",
+    "code": "002343",
+    "name": "慈文传媒",
+    "lianban": 1,
+    "score": 46.1,
+    "open_pct": -5.6,
+    "vol_ratio": 7.63,
     "advice": "回避",
-    "note": "低开-1.0%且昨日机构净卖-1,213万"
+    "note": "低开-5.6%且昨日机构净卖-2,358万"
+   },
+   {
+    "date": "2026-10-26",
+    "code": "920091",
+    "name": "大鹏工业",
+    "lianban": 1,
+    "score": 46.2,
+    "open_pct": null,
+    "vol_ratio": null,
+    "advice": "数据缺失",
+    "note": "竞价数据未出"
    }
   ],
   "trades": [
@@ -1062,6 +1173,51 @@
    }
   ],
   "pushes": [
+   {
+    "date": "2026-10-23",
+    "time": "21:18",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b6281a4119ca0dfc746c07ee2356",
+    "note": "20261023 摘要"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "21:18",
+    "task": "evening",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "20261023 报告生成（15只，阶段高潮）"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "21:18",
+    "task": "paper",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "结算净值 ¥940,748（+4.50%），买入 4 只"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "21:18",
+    "task": "theme",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "板块快照：主线2个/发酵2个"
+   },
+   {
+    "date": "2026-10-23",
+    "time": "21:18",
+    "task": "dashboard",
+    "channel": "github",
+    "status": "ok",
+    "message_id": "-",
+    "note": "Pages 推送"
+   },
    {
     "date": "2026-10-23",
     "time": "09:28",
