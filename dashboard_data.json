@@ -2,10 +2,10 @@
  "title": "涨停板策略作战看板",
  "subtitle": "次日涨停候选池 · 纸面组合 · 竞价晨报 · 回测回溯 · 推送记录",
  "timezone": "Asia/Shanghai",
- "generatedAt": "2026-10-26T21:17:37+08:00",
+ "generatedAt": "2026-10-27T09:28:25+08:00",
  "freshness": {
   "latestDataDate": "20261026",
-  "latestCapturedAt": "2026-10-26T21:16:47+08:00",
+  "latestCapturedAt": "2026-10-27T09:27:33+08:00",
   "source": "zt_screener 定时任务快照"
  },
  "availableDates": [
@@ -19,6 +19,7 @@
   "2026-10-22",
   "2026-10-23",
   "2026-10-26",
+  "2026-10-27",
   "20260414",
   "20260415",
   "20260416",
@@ -521,169 +522,92 @@
   ],
   "latestMorning": [
    {
-    "date": "2026-10-26",
-    "code": "603280",
-    "name": "南方路机",
-    "lianban": 2,
-    "score": 47.8,
-    "open_pct": 4.91,
-    "vol_ratio": 119.67,
-    "advice": "接力",
-    "note": "接力区 量比119.7量能足"
-   },
-   {
-    "date": "2026-10-26",
-    "code": "002982",
-    "name": "湘佳股份",
-    "lianban": 1,
-    "score": 46.2,
-    "open_pct": 4.59,
-    "vol_ratio": 81.43,
-    "advice": "接力",
-    "note": "接力区 量比81.4量能足"
-   },
-   {
-    "date": "2026-10-26",
-    "code": "002535",
-    "name": "林州重机",
-    "lianban": 2,
-    "score": 61.6,
-    "open_pct": 2.97,
-    "vol_ratio": 49.37,
-    "advice": "观望",
-    "note": "争议区3.0%(0-3%)"
-   },
-   {
-    "date": "2026-10-26",
-    "code": "003021",
-    "name": "兆威机电",
-    "lianban": 2,
-    "score": 47.3,
-    "open_pct": 1.38,
-    "vol_ratio": 16.59,
-    "advice": "观望",
-    "note": "争议区1.4%(0-3%)"
-   },
-   {
-    "date": "2026-10-26",
-    "code": "301699",
-    "name": "洛轴股份",
-    "lianban": 1,
-    "score": 47.0,
-    "open_pct": 1.8,
-    "vol_ratio": 10.76,
-    "advice": "观望",
-    "note": "争议区1.8%(0-3%)"
-   },
-   {
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "code": "000678",
     "name": "襄阳轴承",
-    "lianban": 2,
-    "score": 50.3,
-    "open_pct": 7.26,
-    "vol_ratio": 14.52,
-    "advice": "放弃",
-    "note": "高开7.3%兑现风险区(>7%)"
+    "lianban": 3,
+    "score": 61.3,
+    "open_pct": 4.74,
+    "vol_ratio": 12.77,
+    "advice": "接力",
+    "note": "接力区 量比12.8量能足"
    },
    {
-    "date": "2026-10-26",
-    "code": "603028",
-    "name": "赛福天",
+    "date": "2026-10-27",
+    "code": "603337",
+    "name": "杰克科技",
     "lianban": 2,
-    "score": 64.8,
-    "open_pct": 9.95,
-    "vol_ratio": 47.19,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
+    "score": 61.2,
+    "open_pct": 4.19,
+    "vol_ratio": 11.25,
+    "advice": "接力",
+    "note": "接力区 量比11.2量能足"
    },
    {
-    "date": "2026-10-26",
+    "date": "2026-10-27",
+    "code": "002535",
+    "name": "林州重机",
+    "lianban": 3,
+    "score": 62.5,
+    "open_pct": 2.1,
+    "vol_ratio": 34.59,
+    "advice": "观望",
+    "note": "争议区2.1%(0-3%)"
+   },
+   {
+    "date": "2026-10-27",
     "code": "600838",
     "name": "上海九百",
+    "lianban": 4,
+    "score": 57.3,
+    "open_pct": 7.19,
+    "vol_ratio": 47.47,
+    "advice": "放弃",
+    "note": "高开7.2%兑现风险区(>7%)"
+   },
+   {
+    "date": "2026-10-27",
+    "code": "603028",
+    "name": "赛福天",
     "lianban": 3,
-    "score": 61.2,
-    "open_pct": 10.0,
-    "vol_ratio": 122.71,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-10-26",
-    "code": "603089",
-    "name": "正裕工业",
-    "lianban": 2,
-    "score": 58.7,
+    "score": 67.4,
     "open_pct": 10.01,
-    "vol_ratio": 30.08,
+    "vol_ratio": 26.43,
     "advice": "买不进",
     "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-10-26",
-    "code": "603278",
-    "name": "大业股份",
-    "lianban": 6,
-    "score": 58.4,
-    "open_pct": 10.03,
-    "vol_ratio": 76.69,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-10-26",
-    "code": "301502",
-    "name": "华阳智能",
-    "lianban": 2,
-    "score": 58.1,
-    "open_pct": 20.0,
-    "vol_ratio": 94.12,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-10-26",
-    "code": "603933",
-    "name": "睿能科技",
-    "lianban": 2,
-    "score": 55.6,
-    "open_pct": 9.98,
-    "vol_ratio": 39.14,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "code": "603528",
     "name": "多伦科技",
-    "lianban": 2,
-    "score": 50.8,
-    "open_pct": 9.95,
-    "vol_ratio": 18.54,
+    "lianban": 3,
+    "score": 58.2,
+    "open_pct": 10.06,
+    "vol_ratio": 51.26,
     "advice": "买不进",
     "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-10-26",
-    "code": "002343",
-    "name": "慈文传媒",
+    "date": "2026-10-27",
+    "code": "600558",
+    "name": "大西洋",
     "lianban": 1,
-    "score": 46.1,
-    "open_pct": -5.6,
-    "vol_ratio": 7.63,
-    "advice": "回避",
-    "note": "低开-5.6%且昨日机构净卖-2,358万"
+    "score": 53.0,
+    "open_pct": 10.07,
+    "vol_ratio": 49.79,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-10-26",
-    "code": "920091",
-    "name": "大鹏工业",
-    "lianban": 1,
-    "score": 46.2,
-    "open_pct": null,
-    "vol_ratio": null,
-    "advice": "数据缺失",
-    "note": "竞价数据未出"
+    "date": "2026-10-27",
+    "code": "603089",
+    "name": "正裕工业",
+    "lianban": 3,
+    "score": 60.2,
+    "open_pct": -1.61,
+    "vol_ratio": 29.82,
+    "advice": "回避",
+    "note": "低开-1.6%走弱"
    }
   ],
   "trades": [
@@ -1149,6 +1073,51 @@
    }
   ],
   "pushes": [
+   {
+    "date": "2026-10-26",
+    "time": "21:24",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b62c10850b8a0df60c0109393f2d",
+    "note": "20261026 摘要"
+   },
+   {
+    "date": "2026-10-26",
+    "time": "21:23",
+    "task": "evening",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "20261026 报告生成（8只，阶段复苏）"
+   },
+   {
+    "date": "2026-10-26",
+    "time": "21:23",
+    "task": "paper",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "结算净值 ¥939,658（-0.12%），买入 6 只"
+   },
+   {
+    "date": "2026-10-26",
+    "time": "21:23",
+    "task": "theme",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "板块快照：主线1个/发酵2个"
+   },
+   {
+    "date": "2026-10-26",
+    "time": "21:23",
+    "task": "dashboard",
+    "channel": "github",
+    "status": "ok",
+    "message_id": "-",
+    "note": "Pages 推送"
+   },
    {
     "date": "2026-10-26",
     "time": "09:32",
