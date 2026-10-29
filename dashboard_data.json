@@ -2,10 +2,10 @@
  "title": "涨停板策略作战看板",
  "subtitle": "次日涨停候选池 · 纸面组合 · 竞价晨报 · 回测回溯 · 推送记录",
  "timezone": "Asia/Shanghai",
- "generatedAt": "2026-10-28T21:16:42+08:00",
+ "generatedAt": "2026-10-29T09:28:18+08:00",
  "freshness": {
   "latestDataDate": "20261028",
-  "latestCapturedAt": "2026-10-28T21:16:20+08:00",
+  "latestCapturedAt": "2026-10-29T09:27:18+08:00",
   "source": "zt_screener 定时任务快照"
  },
  "availableDates": [
@@ -21,6 +21,7 @@
   "2026-10-26",
   "2026-10-27",
   "2026-10-28",
+  "2026-10-29",
   "20260416",
   "20260417",
   "20260420",
@@ -551,92 +552,92 @@
   ],
   "latestMorning": [
    {
-    "date": "2026-10-28",
-    "code": "600838",
-    "name": "上海九百",
-    "lianban": 5,
-    "score": 68.0,
-    "open_pct": 4.28,
-    "vol_ratio": 43.61,
-    "advice": "接力",
-    "note": "接力区 量比43.6量能足"
-   },
-   {
-    "date": "2026-10-28",
-    "code": "000678",
-    "name": "襄阳轴承",
-    "lianban": 4,
-    "score": 65.3,
-    "open_pct": 5.93,
-    "vol_ratio": 15.14,
-    "advice": "接力",
-    "note": "接力区 量比15.1量能足"
-   },
-   {
-    "date": "2026-10-28",
-    "code": "002820",
-    "name": "桂发祥",
+    "date": "2026-10-29",
+    "code": "603037",
+    "name": "凯众股份",
     "lianban": 2,
-    "score": 52.2,
-    "open_pct": 1.07,
-    "vol_ratio": 33.48,
+    "score": 57.0,
+    "open_pct": 3.37,
+    "vol_ratio": 26.39,
+    "advice": "接力",
+    "note": "接力区 量比26.4量能足"
+   },
+   {
+    "date": "2026-10-29",
+    "code": "301488",
+    "name": "豪恩汽电",
+    "lianban": 1,
+    "score": 54.7,
+    "open_pct": 1.14,
+    "vol_ratio": 13.39,
     "advice": "观望",
     "note": "争议区1.1%(0-3%)"
    },
    {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
+    "code": "603006",
+    "name": "联明股份",
+    "lianban": 1,
+    "score": 60.8,
+    "open_pct": 7.08,
+    "vol_ratio": 67.68,
+    "advice": "放弃",
+    "note": "高开7.1%兑现风险区(>7%)"
+   },
+   {
+    "date": "2026-10-29",
+    "code": "000678",
+    "name": "襄阳轴承",
+    "lianban": 5,
+    "score": 77.2,
+    "open_pct": 9.99,
+    "vol_ratio": 29.16,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-10-29",
     "code": "002708",
     "name": "光洋股份",
-    "lianban": 2,
-    "score": 65.4,
-    "open_pct": 9.99,
-    "vol_ratio": 45.84,
+    "lianban": 3,
+    "score": 68.0,
+    "open_pct": 9.98,
+    "vol_ratio": 59.0,
     "advice": "买不进",
     "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-10-28",
-    "code": "000058",
-    "name": "深 赛 格",
-    "lianban": 1,
-    "score": 54.6,
-    "open_pct": 10.04,
-    "vol_ratio": 111.51,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "code": "001219",
     "name": "青岛食品",
-    "lianban": 2,
-    "score": 54.5,
+    "lianban": 3,
+    "score": 57.0,
     "open_pct": 10.01,
-    "vol_ratio": 38.16,
+    "vol_ratio": 47.04,
     "advice": "买不进",
     "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-10-28",
-    "code": "605333",
-    "name": "沪光股份",
+    "date": "2026-10-29",
+    "code": "601956",
+    "name": "东贝集团",
     "lianban": 2,
-    "score": 52.1,
-    "open_pct": -1.96,
-    "vol_ratio": 27.66,
-    "advice": "回避",
-    "note": "低开-2.0%走弱"
+    "score": 55.6,
+    "open_pct": 10.02,
+    "vol_ratio": 36.92,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-10-28",
-    "code": "002284",
-    "name": "亚太股份",
+    "date": "2026-10-29",
+    "code": "920896",
+    "name": "旺成科技",
     "lianban": 1,
-    "score": 51.1,
-    "open_pct": -0.83,
-    "vol_ratio": 21.99,
-    "advice": "回避",
-    "note": "低开-0.8%走弱"
+    "score": 53.5,
+    "open_pct": null,
+    "vol_ratio": null,
+    "advice": "数据缺失",
+    "note": "竞价数据未出"
    }
   ],
   "trades": [
@@ -1192,6 +1193,51 @@
    }
   ],
   "pushes": [
+   {
+    "date": "2026-10-28",
+    "time": "21:18",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b612b2c6fa0a8c307dea383ad19a",
+    "note": "20261028 摘要"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "21:18",
+    "task": "evening",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "20261028 报告生成（8只，复苏阶段）"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "21:18",
+    "task": "paper",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "结算净值 ¥906,774（+0.99%），买入 5 只"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "21:18",
+    "task": "theme",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "板块快照：主线0个/发酵2个（汽车零部件、通用设备）"
+   },
+   {
+    "date": "2026-10-28",
+    "time": "21:18",
+    "task": "dashboard",
+    "channel": "github",
+    "status": "ok",
+    "message_id": "-",
+    "note": "Pages 推送"
+   },
    {
     "date": "2026-10-28",
     "time": "09:28",
