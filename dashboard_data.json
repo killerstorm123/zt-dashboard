@@ -2,10 +2,10 @@
  "title": "涨停板策略作战看板",
  "subtitle": "次日涨停候选池 · 纸面组合 · 竞价晨报 · 回测回溯 · 推送记录",
  "timezone": "Asia/Shanghai",
- "generatedAt": "2026-11-02T21:41:44+08:00",
+ "generatedAt": "2026-11-03T09:28:29+08:00",
  "freshness": {
   "latestDataDate": "20261102",
-  "latestCapturedAt": "2026-11-02T21:35:21+08:00",
+  "latestCapturedAt": "2026-11-03T09:27:23+08:00",
   "source": "zt_screener 定时任务快照"
  },
  "availableDates": [
@@ -24,6 +24,7 @@
   "2026-10-29",
   "2026-10-30",
   "2026-11-02",
+  "2026-11-03",
   "20260421",
   "20260422",
   "20260423",
@@ -694,90 +695,167 @@
   ],
   "latestMorning": [
    {
-    "date": "2026-11-02",
-    "code": "001219",
-    "name": "青岛食品",
-    "lianban": 5,
-    "score": 57.7,
-    "open_pct": 3.31,
-    "vol_ratio": 58.11,
-    "advice": "接力",
-    "note": "接力区 量比58.1量能足"
-   },
-   {
-    "date": "2026-11-02",
-    "code": "603703",
-    "name": "盛洋科技",
-    "lianban": 2,
-    "score": 54.4,
-    "open_pct": 5.94,
-    "vol_ratio": 106.7,
-    "advice": "接力",
-    "note": "接力区 量比106.7量能足"
-   },
-   {
-    "date": "2026-11-02",
-    "code": "002172",
-    "name": "澳洋健康",
-    "lianban": 3,
-    "score": 47.3,
-    "open_pct": 5.08,
-    "vol_ratio": 20.45,
-    "advice": "接力",
-    "note": "接力区 量比20.4量能足"
-   },
-   {
-    "date": "2026-11-02",
-    "code": "000897",
-    "name": "津滨发展",
-    "lianban": 1,
-    "score": 43.8,
-    "open_pct": 1.63,
-    "vol_ratio": 42.11,
-    "advice": "观望",
-    "note": "争议区1.6%(0-3%)"
-   },
-   {
-    "date": "2026-11-02",
-    "code": "603131",
-    "name": "上海沪工",
-    "lianban": 3,
-    "score": 58.2,
-    "open_pct": 8.26,
-    "vol_ratio": 88.72,
-    "advice": "放弃",
-    "note": "高开8.3%兑现风险区(>7%)"
-   },
-   {
-    "date": "2026-11-02",
-    "code": "003032",
-    "name": "传智教育",
-    "lianban": 2,
-    "score": 51.4,
-    "open_pct": 7.43,
-    "vol_ratio": 25.72,
-    "advice": "放弃",
-    "note": "高开7.4%兑现风险区(>7%)"
-   },
-   {
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "code": "002275",
     "name": "桂林三金",
+    "lianban": 3,
+    "score": 57.0,
+    "open_pct": 3.16,
+    "vol_ratio": 115.59,
+    "advice": "接力",
+    "note": "接力区 量比115.6量能足"
+   },
+   {
+    "date": "2026-11-03",
+    "code": "002172",
+    "name": "澳洋健康",
+    "lianban": 4,
+    "score": 51.9,
+    "open_pct": 5.85,
+    "vol_ratio": 16.21,
+    "advice": "接力",
+    "note": "接力区 量比16.2量能足"
+   },
+   {
+    "date": "2026-11-03",
+    "code": "600715",
+    "name": "文投控股",
+    "lianban": 1,
+    "score": 53.4,
+    "open_pct": 0.89,
+    "vol_ratio": 16.38,
+    "advice": "观望",
+    "note": "争议区0.9%(0-3%)"
+   },
+   {
+    "date": "2026-11-03",
+    "code": "001219",
+    "name": "青岛食品",
+    "lianban": 6,
+    "score": 49.8,
+    "open_pct": 1.69,
+    "vol_ratio": 32.43,
+    "advice": "观望",
+    "note": "争议区1.7%(0-3%)"
+   },
+   {
+    "date": "2026-11-03",
+    "code": "000525",
+    "name": "红太阳",
     "lianban": 2,
-    "score": 52.0,
-    "open_pct": 10.01,
-    "vol_ratio": 58.37,
+    "score": 54.4,
+    "open_pct": 7.29,
+    "vol_ratio": 140.87,
+    "advice": "放弃",
+    "note": "高开7.3%兑现风险区(>7%)"
+   },
+   {
+    "date": "2026-11-03",
+    "code": "000995",
+    "name": "皇台酒业",
+    "lianban": 2,
+    "score": 56.8,
+    "open_pct": 10.0,
+    "vol_ratio": 4.05,
     "advice": "买不进",
     "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "code": "600261",
     "name": "阳光照明",
+    "lianban": 3,
+    "score": 55.2,
+    "open_pct": 10.0,
+    "vol_ratio": 385.91,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-03",
+    "code": "002086",
+    "name": "东方海洋",
+    "lianban": 3,
+    "score": 53.9,
+    "open_pct": 9.97,
+    "vol_ratio": 8.2,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-03",
+    "code": "000417",
+    "name": "合百集团",
     "lianban": 2,
     "score": 51.4,
+    "open_pct": 10.05,
+    "vol_ratio": 143.32,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-03",
+    "code": "002827",
+    "name": "高争民爆",
+    "lianban": 1,
+    "score": 50.4,
+    "open_pct": 10.0,
+    "vol_ratio": 6.89,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-03",
+    "code": "600892",
+    "name": "大晟文化",
+    "lianban": 1,
+    "score": 48.5,
+    "open_pct": 10.07,
+    "vol_ratio": 4.07,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-03",
+    "code": "605577",
+    "name": "龙版传媒",
+    "lianban": 1,
+    "score": 47.4,
+    "open_pct": 10.0,
+    "vol_ratio": 5.91,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-03",
+    "code": "301262",
+    "name": "海看股份",
+    "lianban": 1,
+    "score": 46.2,
+    "open_pct": 13.43,
+    "vol_ratio": 38.62,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-03",
+    "code": "001230",
+    "name": "劲旅环境",
+    "lianban": 1,
+    "score": 46.2,
+    "open_pct": 10.0,
+    "vol_ratio": 74.57,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-03",
+    "code": "603258",
+    "name": "电魂网络",
+    "lianban": 1,
+    "score": 44.9,
     "open_pct": 10.02,
-    "vol_ratio": 27.02,
+    "vol_ratio": 20.26,
     "advice": "买不进",
     "note": "一字/顶格开盘，竞价无法成交"
    }
@@ -1435,6 +1513,51 @@
    }
   ],
   "pushes": [
+   {
+    "date": "2026-11-02",
+    "time": "21:48",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b61bd071c10b0de0d04f445441b1",
+    "note": "20261102 摘要"
+   },
+   {
+    "date": "2026-11-02",
+    "time": "21:47",
+    "task": "evening",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "20261102 报告生成（15只，高潮）"
+   },
+   {
+    "date": "2026-11-02",
+    "time": "21:47",
+    "task": "paper",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "基线净值 ¥809,808（+0.53%）买入4只；策略净值 ¥1,113,179（+0.99%）买入3只"
+   },
+   {
+    "date": "2026-11-02",
+    "time": "21:47",
+    "task": "theme",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "板块快照：主线0个/发酵6个"
+   },
+   {
+    "date": "2026-11-02",
+    "time": "21:47",
+    "task": "dashboard",
+    "channel": "github",
+    "status": "ok",
+    "message_id": "-",
+    "note": "Pages 推送"
+   },
    {
     "date": "2026-10-30",
     "time": "21:23",
