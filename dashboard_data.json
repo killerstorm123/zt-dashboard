@@ -2,10 +2,10 @@
  "title": "涨停板策略作战看板",
  "subtitle": "次日涨停候选池 · 纸面组合 · 竞价晨报 · 回测回溯 · 推送记录",
  "timezone": "Asia/Shanghai",
- "generatedAt": "2026-11-05T21:17:37+08:00",
+ "generatedAt": "2026-11-06T09:28:10+08:00",
  "freshness": {
   "latestDataDate": "20261105",
-  "latestCapturedAt": "2026-11-05T21:16:41+08:00",
+  "latestCapturedAt": "2026-11-06T09:27:29+08:00",
   "source": "zt_screener 定时任务快照"
  },
  "availableDates": [
@@ -27,6 +27,7 @@
   "2026-11-03",
   "2026-11-04",
   "2026-11-05",
+  "2026-11-06",
   "20260424",
   "20260427",
   "20260428",
@@ -697,169 +698,136 @@
   ],
   "latestMorning": [
    {
-    "date": "2026-11-05",
-    "code": "002088",
-    "name": "鲁阳节能",
-    "lianban": 2,
-    "score": 49.7,
-    "open_pct": 6.99,
-    "vol_ratio": 43.44,
-    "advice": "接力",
-    "note": "接力区 量比43.4量能足"
-   },
-   {
-    "date": "2026-11-05",
-    "code": "301583",
-    "name": "托伦斯",
+    "date": "2026-11-06",
+    "code": "688429",
+    "name": "时创能源",
     "lianban": 1,
-    "score": 48.5,
-    "open_pct": 6.04,
-    "vol_ratio": 23.72,
+    "score": 53.6,
+    "open_pct": 5.14,
+    "vol_ratio": 33.37,
     "advice": "接力",
-    "note": "接力区 量比23.7量能足"
+    "note": "接力区 量比33.4量能足"
    },
    {
-    "date": "2026-11-05",
-    "code": "000096",
-    "name": "广聚能源",
-    "lianban": 1,
-    "score": 46.2,
-    "open_pct": 4.96,
-    "vol_ratio": 261.63,
-    "advice": "接力",
-    "note": "接力区 量比261.6量能足"
-   },
-   {
-    "date": "2026-11-05",
-    "code": "001282",
-    "name": "三联锻造",
-    "lianban": 1,
-    "score": 46.2,
-    "open_pct": 4.47,
-    "vol_ratio": 10.2,
-    "advice": "接力",
-    "note": "接力区 量比10.2量能足"
-   },
-   {
-    "date": "2026-11-05",
-    "code": "605577",
-    "name": "龙版传媒",
-    "lianban": 3,
-    "score": 52.1,
-    "open_pct": 1.84,
-    "vol_ratio": 15.78,
-    "advice": "观望",
-    "note": "争议区1.8%(0-3%)"
-   },
-   {
-    "date": "2026-11-05",
-    "code": "000679",
-    "name": "大连友谊",
-    "lianban": 2,
-    "score": 50.8,
-    "open_pct": 0.0,
-    "vol_ratio": 36.9,
-    "advice": "观望",
-    "note": "争议区0.0%(0-3%)"
-   },
-   {
-    "date": "2026-11-05",
-    "code": "603767",
-    "name": "中马传动",
-    "lianban": 1,
-    "score": 47.4,
-    "open_pct": 2.5,
-    "vol_ratio": 5.4,
-    "advice": "观望",
-    "note": "争议区2.5%(0-3%)"
-   },
-   {
-    "date": "2026-11-05",
-    "code": "002652",
-    "name": "扬子新材",
-    "lianban": 2,
-    "score": 52.2,
-    "open_pct": 8.93,
-    "vol_ratio": 39.86,
-    "advice": "放弃",
-    "note": "高开8.9%兑现风险区(>7%)"
-   },
-   {
-    "date": "2026-11-05",
-    "code": "002827",
-    "name": "高争民爆",
-    "lianban": 3,
-    "score": 67.2,
-    "open_pct": 9.99,
-    "vol_ratio": 2621.14,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-11-05",
-    "code": "601599",
-    "name": "浙文影业",
-    "lianban": 3,
-    "score": 64.2,
-    "open_pct": 10.0,
-    "vol_ratio": 59.09,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-11-05",
-    "code": "002578",
-    "name": "闽发铝业",
-    "lianban": 3,
-    "score": 52.2,
-    "open_pct": 9.9,
-    "vol_ratio": 13.46,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "code": "603381",
     "name": "永臻股份",
-    "lianban": 2,
-    "score": 50.8,
-    "open_pct": 9.98,
-    "vol_ratio": 34.6,
+    "lianban": 3,
+    "score": 71.6,
+    "open_pct": 10.03,
+    "vol_ratio": 78.8,
     "advice": "买不进",
     "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-11-05",
-    "code": "600892",
-    "name": "大晟文化",
-    "lianban": 3,
-    "score": 60.0,
-    "open_pct": -0.19,
-    "vol_ratio": 61.01,
-    "advice": "回避",
-    "note": "低开-0.2%走弱"
-   },
-   {
-    "date": "2026-11-05",
-    "code": "601123",
-    "name": "马矿股份",
+    "date": "2026-11-06",
+    "code": "301697",
+    "name": "贝特利",
     "lianban": 2,
-    "score": 48.9,
-    "open_pct": -9.53,
-    "vol_ratio": 38.02,
-    "advice": "回避",
-    "note": "低开-9.5%走弱"
+    "score": 69.0,
+    "open_pct": 13.38,
+    "vol_ratio": 54.88,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-11-05",
-    "code": "001233",
-    "name": "海安集团",
-    "lianban": 1,
-    "score": 46.2,
-    "open_pct": -0.91,
-    "vol_ratio": 3.27,
+    "date": "2026-11-06",
+    "code": "002578",
+    "name": "闽发铝业",
+    "lianban": 4,
+    "score": 68.2,
+    "open_pct": 10.11,
+    "vol_ratio": 163.58,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-06",
+    "code": "601599",
+    "name": "浙文影业",
+    "lianban": 4,
+    "score": 59.8,
+    "open_pct": 9.96,
+    "vol_ratio": 114.77,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-06",
+    "code": "002529",
+    "name": "海源复材",
+    "lianban": 2,
+    "score": 58.7,
+    "open_pct": 9.97,
+    "vol_ratio": 137.5,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-06",
+    "code": "001360",
+    "name": "南矿集团",
+    "lianban": 2,
+    "score": 64.8,
+    "open_pct": -1.21,
+    "vol_ratio": 16.32,
     "advice": "回避",
-    "note": "低开-0.9%走弱"
+    "note": "低开-1.2%走弱"
+   },
+   {
+    "date": "2026-11-06",
+    "code": "002081",
+    "name": "金 螳 螂",
+    "lianban": 2,
+    "score": 60.0,
+    "open_pct": -2.96,
+    "vol_ratio": 62.48,
+    "advice": "回避",
+    "note": "低开-3.0%走弱"
+   },
+   {
+    "date": "2026-11-06",
+    "code": "600641",
+    "name": "先导基电",
+    "lianban": 2,
+    "score": 57.6,
+    "open_pct": -0.13,
+    "vol_ratio": 13.21,
+    "advice": "回避",
+    "note": "低开-0.1%走弱"
+   },
+   {
+    "date": "2026-11-06",
+    "code": "002506",
+    "name": "协鑫集成",
+    "lianban": 1,
+    "score": 57.2,
+    "open_pct": -0.79,
+    "vol_ratio": 26.27,
+    "advice": "回避",
+    "note": "低开-0.8%走弱"
+   },
+   {
+    "date": "2026-11-06",
+    "code": "000017",
+    "name": "深中华A",
+    "lianban": 2,
+    "score": 54.4,
+    "open_pct": -3.13,
+    "vol_ratio": 33.11,
+    "advice": "回避",
+    "note": "低开-3.1%走弱"
+   },
+   {
+    "date": "2026-11-06",
+    "code": "600481",
+    "name": "双良节能",
+    "lianban": 1,
+    "score": 53.6,
+    "open_pct": -0.73,
+    "vol_ratio": 18.99,
+    "advice": "回避",
+    "note": "低开-0.7%走弱"
    }
   ],
   "trades": [
@@ -1685,6 +1653,51 @@
    }
   ],
   "pushes": [
+   {
+    "date": "2026-11-05",
+    "time": "21:22",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b61fc7f60d8a0c1ba6dc7df12688",
+    "note": "20261105 摘要+报告文件已发（bot身份，两条均成功）"
+   },
+   {
+    "date": "2026-11-05",
+    "time": "21:22",
+    "task": "evening",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "20261105 报告生成（12只，阶段扩张）"
+   },
+   {
+    "date": "2026-11-05",
+    "time": "21:22",
+    "task": "paper",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "结算 主策略净值 ¥970,943（-0.13%）买入4只 / 基线 ¥785,254（+0.67%）买入10只（池15）"
+   },
+   {
+    "date": "2026-11-05",
+    "time": "21:22",
+    "task": "theme",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "板块快照：主线1个（半导体）/发酵1个（光伏设备）/退潮2个（贵金属、通用设备）"
+   },
+   {
+    "date": "2026-11-05",
+    "time": "21:22",
+    "task": "dashboard",
+    "channel": "github",
+    "status": "ok",
+    "message_id": "-",
+    "note": "Pages 推送（重试第3次成功）"
+   },
    {
     "date": "2026-11-05",
     "time": "09:35",
