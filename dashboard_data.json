@@ -2,10 +2,10 @@
  "title": "涨停板策略作战看板",
  "subtitle": "次日涨停候选池 · 纸面组合 · 竞价晨报 · 回测回溯 · 推送记录",
  "timezone": "Asia/Shanghai",
- "generatedAt": "2026-11-09T21:17:03+08:00",
+ "generatedAt": "2026-11-10T09:28:06+08:00",
  "freshness": {
   "latestDataDate": "20261109",
-  "latestCapturedAt": "2026-11-09T21:16:36+08:00",
+  "latestCapturedAt": "2026-11-10T09:27:37+08:00",
   "source": "zt_screener 定时任务快照"
  },
  "availableDates": [
@@ -29,6 +29,7 @@
   "2026-11-05",
   "2026-11-06",
   "2026-11-09",
+  "2026-11-10",
   "20260428",
   "20260429",
   "20260430",
@@ -727,59 +728,136 @@
   ],
   "latestMorning": [
    {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "code": "002578",
     "name": "闽发铝业",
-    "lianban": 5,
-    "score": 57.1,
-    "open_pct": 9.98,
-    "vol_ratio": 84.55,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
+    "lianban": 6,
+    "score": 55.7,
+    "open_pct": 4.72,
+    "vol_ratio": 42.18,
+    "advice": "接力",
+    "note": "接力区 量比42.2量能足"
    },
    {
-    "date": "2026-11-09",
-    "code": "600207",
-    "name": "安彩高科",
+    "date": "2026-11-10",
+    "code": "603286",
+    "name": "日盈电子",
     "lianban": 1,
-    "score": 46.3,
-    "open_pct": 10.04,
-    "vol_ratio": 70.75,
+    "score": 48.0,
+    "open_pct": 0.45,
+    "vol_ratio": 10.08,
+    "advice": "观望",
+    "note": "争议区0.5%(0-3%)"
+   },
+   {
+    "date": "2026-11-10",
+    "code": "603121",
+    "name": "华培动力",
+    "lianban": 1,
+    "score": 44.4,
+    "open_pct": 2.67,
+    "vol_ratio": 22.47,
+    "advice": "观望",
+    "note": "争议区2.7%(0-3%)"
+   },
+   {
+    "date": "2026-11-10",
+    "code": "600327",
+    "name": "大东方",
+    "lianban": 2,
+    "score": 50.7,
+    "open_pct": 9.26,
+    "vol_ratio": 30.6,
+    "advice": "放弃",
+    "note": "高开9.3%兑现风险区(>7%)"
+   },
+   {
+    "date": "2026-11-10",
+    "code": "001379",
+    "name": "腾达科技",
+    "lianban": 1,
+    "score": 48.0,
+    "open_pct": 9.72,
+    "vol_ratio": 41.16,
+    "advice": "放弃",
+    "note": "高开9.7%兑现风险区(>7%)"
+   },
+   {
+    "date": "2026-11-10",
+    "code": "000530",
+    "name": "冰山冷热",
+    "lianban": 1,
+    "score": 55.2,
+    "open_pct": 10.03,
+    "vol_ratio": 15.01,
     "advice": "买不进",
     "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-11-09",
-    "code": "603381",
-    "name": "永臻股份",
-    "lianban": 4,
-    "score": 63.0,
-    "open_pct": -5.45,
-    "vol_ratio": 73.67,
-    "advice": "回避",
-    "note": "低开-5.4%走弱"
+    "date": "2026-11-10",
+    "code": "002310",
+    "name": "东方新能",
+    "lianban": 2,
+    "score": 54.4,
+    "open_pct": 10.2,
+    "vol_ratio": 77.69,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-11-09",
-    "code": "601599",
-    "name": "浙文影业",
-    "lianban": 5,
-    "score": 61.3,
-    "open_pct": -3.74,
-    "vol_ratio": 58.62,
-    "advice": "回避",
-    "note": "低开-3.7%走弱"
+    "date": "2026-11-10",
+    "code": "603366",
+    "name": "日出东方",
+    "lianban": 2,
+    "score": 51.4,
+    "open_pct": 10.01,
+    "vol_ratio": 7.59,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-11-09",
-    "code": "301697",
-    "name": "贝特利",
-    "lianban": 3,
-    "score": 60.7,
-    "open_pct": -2.46,
-    "vol_ratio": 25.33,
-    "advice": "回避",
-    "note": "低开-2.5%走弱"
+    "date": "2026-11-10",
+    "code": "002889",
+    "name": "东方嘉盛",
+    "lianban": 2,
+    "score": 51.4,
+    "open_pct": 10.0,
+    "vol_ratio": 21.03,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-10",
+    "code": "002037",
+    "name": "保利联合",
+    "lianban": 1,
+    "score": 50.4,
+    "open_pct": 9.96,
+    "vol_ratio": 68.38,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-10",
+    "code": "002347",
+    "name": "泰尔股份",
+    "lianban": 1,
+    "score": 48.0,
+    "open_pct": 10.0,
+    "vol_ratio": 32.89,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-10",
+    "code": "601188",
+    "name": "龙江交通",
+    "lianban": 2,
+    "score": 47.7,
+    "open_pct": 10.02,
+    "vol_ratio": 7.26,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
    }
   ],
   "trades": [
@@ -1705,6 +1783,60 @@
    }
   ],
   "pushes": [
+   {
+    "date": "2026-11-09",
+    "time": "21:18",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b6028cde390a0c1c5961dba0aa03",
+    "note": "20261109 摘要"
+   },
+   {
+    "date": "2026-11-09",
+    "time": "21:18",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b6028cd799ca0c3c5c4fd8c84e73",
+    "note": "20261109 完整报告文件"
+   },
+   {
+    "date": "2026-11-09",
+    "time": "21:17",
+    "task": "evening",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "20261109 报告生成（12只，扩张）"
+   },
+   {
+    "date": "2026-11-09",
+    "time": "21:17",
+    "task": "paper",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "基准净值 ¥801,557（+2.91%）买入3只；策略净值 ¥1,064,549（+0.00%）买入0只"
+   },
+   {
+    "date": "2026-11-09",
+    "time": "21:17",
+    "task": "theme",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "板块快照：127行业60条已更新"
+   },
+   {
+    "date": "2026-11-09",
+    "time": "21:17",
+    "task": "dashboard",
+    "channel": "github",
+    "status": "ok",
+    "message_id": "-",
+    "note": "Pages 推送"
+   },
    {
     "date": "2026-11-09",
     "time": "09:33",
