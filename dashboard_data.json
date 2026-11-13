@@ -2,10 +2,10 @@
  "title": "涨停板策略作战看板",
  "subtitle": "次日涨停候选池 · 纸面组合 · 竞价晨报 · 回测回溯 · 推送记录",
  "timezone": "Asia/Shanghai",
- "generatedAt": "2026-11-12T21:17:34+08:00",
+ "generatedAt": "2026-11-13T09:27:58+08:00",
  "freshness": {
   "latestDataDate": "20261112",
-  "latestCapturedAt": "2026-11-12T21:16:51+08:00",
+  "latestCapturedAt": "2026-11-13T09:27:36+08:00",
   "source": "zt_screener 定时任务快照"
  },
  "availableDates": [
@@ -32,6 +32,7 @@
   "2026-11-10",
   "2026-11-11",
   "2026-11-12",
+  "2026-11-13",
   "20260506",
   "20260507",
   "20260508",
@@ -674,169 +675,59 @@
   ],
   "latestMorning": [
    {
-    "date": "2026-11-12",
-    "code": "600715",
-    "name": "文投控股",
-    "lianban": 3,
-    "score": 63.7,
-    "open_pct": 6.69,
-    "vol_ratio": 16.9,
-    "advice": "接力",
-    "note": "接力区 量比16.9量能足"
-   },
-   {
-    "date": "2026-11-12",
-    "code": "603366",
-    "name": "日出东方",
-    "lianban": 4,
-    "score": 59.8,
-    "open_pct": 5.26,
-    "vol_ratio": 203.3,
-    "advice": "接力",
-    "note": "接力区 量比203.3量能足"
-   },
-   {
-    "date": "2026-11-12",
-    "code": "002708",
-    "name": "光洋股份",
-    "lianban": 3,
-    "score": 59.5,
-    "open_pct": 3.42,
-    "vol_ratio": 10.78,
-    "advice": "接力",
-    "note": "接力区 量比10.8量能足"
-   },
-   {
-    "date": "2026-11-12",
-    "code": "001282",
-    "name": "三联锻造",
-    "lianban": 1,
-    "score": 56.0,
-    "open_pct": 6.26,
-    "vol_ratio": 18.12,
-    "advice": "接力",
-    "note": "接力区 量比18.1量能足"
-   },
-   {
-    "date": "2026-11-12",
-    "code": "603536",
-    "name": "惠发食品",
-    "lianban": 2,
-    "score": 51.4,
-    "open_pct": 5.49,
-    "vol_ratio": 64.35,
-    "advice": "接力",
-    "note": "接力区 量比64.3量能足"
-   },
-   {
-    "date": "2026-11-12",
-    "code": "600327",
-    "name": "大东方",
-    "lianban": 4,
-    "score": 58.5,
-    "open_pct": 0.0,
-    "vol_ratio": 31.81,
-    "advice": "观望",
-    "note": "争议区0.0%(0-3%)"
-   },
-   {
-    "date": "2026-11-12",
-    "code": "605255",
-    "name": "天普股份",
-    "lianban": 2,
-    "score": 52.1,
-    "open_pct": 2.1,
-    "vol_ratio": 19.03,
-    "advice": "观望",
-    "note": "争议区2.1%(0-3%)"
-   },
-   {
-    "date": "2026-11-12",
-    "code": "002313",
-    "name": "日海智能",
-    "lianban": 2,
-    "score": 59.1,
-    "open_pct": 9.15,
-    "vol_ratio": 73.89,
-    "advice": "放弃",
-    "note": "高开9.2%兑现风险区(>7%)"
-   },
-   {
-    "date": "2026-11-12",
-    "code": "603042",
-    "name": "华脉科技",
-    "lianban": 1,
-    "score": 51.0,
-    "open_pct": 7.47,
-    "vol_ratio": 36.97,
-    "advice": "放弃",
-    "note": "高开7.5%兑现风险区(>7%)"
-   },
-   {
-    "date": "2026-11-12",
-    "code": "002209",
-    "name": "达 意 隆",
-    "lianban": 2,
-    "score": 67.0,
-    "open_pct": 10.03,
-    "vol_ratio": 117.08,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "code": "002623",
     "name": "亚玛顿",
-    "lianban": 3,
-    "score": 62.4,
-    "open_pct": 9.99,
-    "vol_ratio": 85.46,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
+    "lianban": 4,
+    "score": 67.2,
+    "open_pct": 1.33,
+    "vol_ratio": 640.73,
+    "advice": "观望",
+    "note": "争议区1.3%(0-3%)"
    },
    {
-    "date": "2026-11-12",
-    "code": "002931",
-    "name": "锋龙股份",
-    "lianban": 3,
-    "score": 60.5,
-    "open_pct": 10.0,
-    "vol_ratio": 7.72,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-11-12",
-    "code": "002425",
-    "name": "凯撒文化",
+    "date": "2026-11-13",
+    "code": "603396",
+    "name": "金辰股份",
     "lianban": 2,
-    "score": 58.7,
-    "open_pct": 9.92,
-    "vol_ratio": 22.78,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
+    "score": 60.6,
+    "open_pct": 8.91,
+    "vol_ratio": 111.82,
+    "advice": "放弃",
+    "note": "高开8.9%兑现风险区(>7%)"
    },
    {
-    "date": "2026-11-12",
-    "code": "002520",
-    "name": "日发精机",
-    "lianban": 1,
-    "score": 55.8,
-    "open_pct": 10.06,
-    "vol_ratio": 15.51,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-11-12",
-    "code": "002861",
-    "name": "瀛通通讯",
+    "date": "2026-11-13",
+    "code": "002148",
+    "name": "北纬科技",
     "lianban": 2,
-    "score": 58.6,
-    "open_pct": -8.24,
-    "vol_ratio": 41.73,
+    "score": 48.9,
+    "open_pct": 7.05,
+    "vol_ratio": 54.79,
+    "advice": "放弃",
+    "note": "高开7.1%兑现风险区(>7%)"
+   },
+   {
+    "date": "2026-11-13",
+    "code": "603366",
+    "name": "日出东方",
+    "lianban": 5,
+    "score": 49.9,
+    "open_pct": -3.04,
+    "vol_ratio": 37.13,
     "advice": "回避",
-    "note": "低开-8.2%走弱"
+    "note": "低开-3.0%走弱"
+   },
+   {
+    "date": "2026-11-13",
+    "code": "603536",
+    "name": "惠发食品",
+    "lianban": 3,
+    "score": 47.9,
+    "open_pct": -4.06,
+    "vol_ratio": 34.22,
+    "advice": "回避",
+    "note": "低开-4.1%走弱"
    }
   ],
   "trades": [
@@ -1932,6 +1823,51 @@
    }
   ],
   "pushes": [
+   {
+    "date": "2026-11-12",
+    "time": "21:18",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b606f879fa0a8c4647c7da073e23",
+    "note": "20261112 摘要"
+   },
+   {
+    "date": "2026-11-12",
+    "time": "21:17",
+    "task": "theme",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "板块快照：活跃2个/散点44个/退潮1个"
+   },
+   {
+    "date": "2026-11-12",
+    "time": "21:17",
+    "task": "dashboard",
+    "channel": "github",
+    "status": "ok",
+    "message_id": "-",
+    "note": "Pages 推送"
+   },
+   {
+    "date": "2026-11-12",
+    "time": "21:17",
+    "task": "evening",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "20261112 报告生成（5只，退潮）"
+   },
+   {
+    "date": "2026-11-12",
+    "time": "21:17",
+    "task": "paper",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "结算净值 baseline ¥853211（-0.08%）买入8只；strategy ¥1080145（-3.43%）买入5只"
+   },
    {
     "date": "2026-11-12",
     "time": "09:30",
