@@ -2,10 +2,10 @@
  "title": "涨停板策略作战看板",
  "subtitle": "次日涨停候选池 · 纸面组合 · 竞价晨报 · 回测回溯 · 推送记录",
  "timezone": "Asia/Shanghai",
- "generatedAt": "2026-11-13T21:17:17+08:00",
+ "generatedAt": "2026-11-16T09:27:32+08:00",
  "freshness": {
   "latestDataDate": "20261113",
-  "latestCapturedAt": "2026-11-13T21:16:48+08:00",
+  "latestCapturedAt": "2026-11-16T09:27:14+08:00",
   "source": "zt_screener 定时任务快照"
  },
  "availableDates": [
@@ -33,6 +33,7 @@
   "2026-11-11",
   "2026-11-12",
   "2026-11-13",
+  "2026-11-16",
   "20260507",
   "20260508",
   "20260511",
@@ -689,59 +690,59 @@
   ],
   "latestMorning": [
    {
-    "date": "2026-11-13",
-    "code": "002623",
-    "name": "亚玛顿",
-    "lianban": 4,
-    "score": 67.2,
-    "open_pct": 1.33,
-    "vol_ratio": 640.73,
-    "advice": "观望",
-    "note": "争议区1.3%(0-3%)"
-   },
-   {
-    "date": "2026-11-13",
-    "code": "603396",
-    "name": "金辰股份",
-    "lianban": 2,
-    "score": 60.6,
-    "open_pct": 8.91,
-    "vol_ratio": 111.82,
+    "date": "2026-11-16",
+    "code": "600715",
+    "name": "文投控股",
+    "lianban": 1,
+    "score": 52.2,
+    "open_pct": 7.35,
+    "vol_ratio": 22.5,
     "advice": "放弃",
-    "note": "高开8.9%兑现风险区(>7%)"
+    "note": "高开7.4%兑现风险区(>7%)"
    },
    {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "code": "002148",
     "name": "北纬科技",
-    "lianban": 2,
-    "score": 48.9,
-    "open_pct": 7.05,
-    "vol_ratio": 54.79,
-    "advice": "放弃",
-    "note": "高开7.1%兑现风险区(>7%)"
-   },
-   {
-    "date": "2026-11-13",
-    "code": "603366",
-    "name": "日出东方",
-    "lianban": 5,
-    "score": 49.9,
-    "open_pct": -3.04,
-    "vol_ratio": 37.13,
-    "advice": "回避",
-    "note": "低开-3.0%走弱"
-   },
-   {
-    "date": "2026-11-13",
-    "code": "603536",
-    "name": "惠发食品",
     "lianban": 3,
-    "score": 47.9,
-    "open_pct": -4.06,
-    "vol_ratio": 34.22,
+    "score": 54.0,
+    "open_pct": 10.06,
+    "vol_ratio": 27.52,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-16",
+    "code": "002905",
+    "name": "金逸影视",
+    "lianban": 1,
+    "score": 52.8,
+    "open_pct": 10.0,
+    "vol_ratio": 14.77,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-16",
+    "code": "605255",
+    "name": "天普股份",
+    "lianban": 4,
+    "score": 56.1,
+    "open_pct": -100.0,
+    "vol_ratio": 0.0,
     "advice": "回避",
-    "note": "低开-4.1%走弱"
+    "note": "低开-100.0%走弱"
+   },
+   {
+    "date": "2026-11-16",
+    "code": "001358",
+    "name": "兴欣新材",
+    "lianban": 2,
+    "score": 54.4,
+    "open_pct": -0.98,
+    "vol_ratio": 137.15,
+    "advice": "回避",
+    "note": "低开-1.0%走弱"
    }
   ],
   "trades": [
@@ -1867,6 +1868,51 @@
    }
   ],
   "pushes": [
+   {
+    "date": "2026-11-13",
+    "time": "21:18",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b6044af0044a4c3c8fe59f5ad66f",
+    "note": "20261113 摘要"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "21:17",
+    "task": "evening",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "20261113 报告生成（5只，冰点）"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "21:17",
+    "task": "paper",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "基准净值 ¥861,053（+0.92%）买入3只；策略净值 ¥1,080,145（+0.00%）买入0只"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "21:17",
+    "task": "theme",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "板块快照：主线1个/发酵1个"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "21:17",
+    "task": "dashboard",
+    "channel": "github",
+    "status": "ok",
+    "message_id": "-",
+    "note": "Pages 推送"
+   },
    {
     "date": "2026-11-13",
     "time": "09:28",
