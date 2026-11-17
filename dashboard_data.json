@@ -2,10 +2,10 @@
  "title": "涨停板策略作战看板",
  "subtitle": "次日涨停候选池 · 纸面组合 · 竞价晨报 · 回测回溯 · 推送记录",
  "timezone": "Asia/Shanghai",
- "generatedAt": "2026-11-16T21:17:20+08:00",
+ "generatedAt": "2026-11-17T09:28:19+08:00",
  "freshness": {
   "latestDataDate": "20261116",
-  "latestCapturedAt": "2026-11-16T21:16:36+08:00",
+  "latestCapturedAt": "2026-11-17T09:27:29+08:00",
   "source": "zt_screener 定时任务快照"
  },
  "availableDates": [
@@ -34,6 +34,7 @@
   "2026-11-12",
   "2026-11-13",
   "2026-11-16",
+  "2026-11-17",
   "20260508",
   "20260511",
   "20260512",
@@ -746,59 +747,92 @@
   ],
   "latestMorning": [
    {
-    "date": "2026-11-16",
-    "code": "600715",
-    "name": "文投控股",
-    "lianban": 1,
-    "score": 52.2,
-    "open_pct": 7.35,
-    "vol_ratio": 22.5,
-    "advice": "放弃",
-    "note": "高开7.4%兑现风险区(>7%)"
-   },
-   {
-    "date": "2026-11-16",
-    "code": "002148",
-    "name": "北纬科技",
-    "lianban": 3,
-    "score": 54.0,
-    "open_pct": 10.06,
-    "vol_ratio": 27.52,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "code": "002905",
     "name": "金逸影视",
-    "lianban": 1,
-    "score": 52.8,
-    "open_pct": 10.0,
-    "vol_ratio": 14.77,
+    "lianban": 2,
+    "score": 55.6,
+    "open_pct": 3.76,
+    "vol_ratio": 44.89,
+    "advice": "接力",
+    "note": "接力区 量比44.9量能足"
+   },
+   {
+    "date": "2026-11-17",
+    "code": "002548",
+    "name": "金新农",
+    "lianban": 2,
+    "score": 44.2,
+    "open_pct": 0.0,
+    "vol_ratio": 69.05,
+    "advice": "观望",
+    "note": "争议区0.0%(0-3%)"
+   },
+   {
+    "date": "2026-11-17",
+    "code": "002187",
+    "name": "广百股份",
+    "lianban": 3,
+    "score": 58.2,
+    "open_pct": 9.91,
+    "vol_ratio": 64.08,
     "advice": "买不进",
     "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-11-16",
-    "code": "605255",
-    "name": "天普股份",
-    "lianban": 4,
-    "score": 56.1,
-    "open_pct": -100.0,
-    "vol_ratio": 0.0,
-    "advice": "回避",
-    "note": "低开-100.0%走弱"
+    "date": "2026-11-17",
+    "code": "002685",
+    "name": "华东重机",
+    "lianban": 2,
+    "score": 48.9,
+    "open_pct": 10.02,
+    "vol_ratio": 39.32,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-11-16",
-    "code": "001358",
-    "name": "兴欣新材",
+    "date": "2026-11-17",
+    "code": "002425",
+    "name": "凯撒文化",
     "lianban": 2,
-    "score": 54.4,
-    "open_pct": -0.98,
-    "vol_ratio": 137.15,
+    "score": 60.5,
+    "open_pct": -5.73,
+    "vol_ratio": 24.63,
     "advice": "回避",
-    "note": "低开-1.0%走弱"
+    "note": "低开-5.7%且昨日机构净卖-2,500万"
+   },
+   {
+    "date": "2026-11-17",
+    "code": "600715",
+    "name": "文投控股",
+    "lianban": 2,
+    "score": 52.1,
+    "open_pct": -9.89,
+    "vol_ratio": 6.95,
+    "advice": "回避",
+    "note": "低开-9.9%走弱"
+   },
+   {
+    "date": "2026-11-17",
+    "code": "002148",
+    "name": "北纬科技",
+    "lianban": 4,
+    "score": 50.1,
+    "open_pct": -1.94,
+    "vol_ratio": 26.08,
+    "advice": "回避",
+    "note": "低开-1.9%走弱"
+   },
+   {
+    "date": "2026-11-17",
+    "code": "002205",
+    "name": "国统股份",
+    "lianban": 3,
+    "score": 41.9,
+    "open_pct": -9.92,
+    "vol_ratio": 16.73,
+    "advice": "回避",
+    "note": "低开-9.9%走弱"
    }
   ],
   "trades": [
@@ -1934,6 +1968,51 @@
    }
   ],
   "pushes": [
+   {
+    "date": "2026-11-16",
+    "time": "21:18",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b608465f890a0b07bef136105b38",
+    "note": "20261116 摘要"
+   },
+   {
+    "date": "2026-11-16",
+    "time": "21:18",
+    "task": "paper",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "结算净值 ¥878933（+2.08%），买入 1 只"
+   },
+   {
+    "date": "2026-11-16",
+    "time": "21:18",
+    "task": "theme",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "板块快照：主线0个/发酵0个"
+   },
+   {
+    "date": "2026-11-16",
+    "time": "21:18",
+    "task": "dashboard",
+    "channel": "github",
+    "status": "ok",
+    "message_id": "-",
+    "note": "Pages 推送"
+   },
+   {
+    "date": "2026-11-16",
+    "time": "21:18",
+    "task": "evening",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "20261116 报告生成（8只，阶段复苏）"
+   },
    {
     "date": "2026-11-16",
     "time": "09:28",
