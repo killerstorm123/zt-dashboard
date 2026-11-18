@@ -2,10 +2,10 @@
  "title": "涨停板策略作战看板",
  "subtitle": "次日涨停候选池 · 纸面组合 · 竞价晨报 · 回测回溯 · 推送记录",
  "timezone": "Asia/Shanghai",
- "generatedAt": "2026-11-17T21:17:17+08:00",
+ "generatedAt": "2026-11-18T09:27:32+08:00",
  "freshness": {
   "latestDataDate": "20261117",
-  "latestCapturedAt": "2026-11-17T21:16:25+08:00",
+  "latestCapturedAt": "2026-11-18T09:27:15+08:00",
   "source": "zt_screener 定时任务快照"
  },
  "availableDates": [
@@ -35,6 +35,7 @@
   "2026-11-13",
   "2026-11-16",
   "2026-11-17",
+  "2026-11-18",
   "20260511",
   "20260512",
   "20260513",
@@ -761,92 +762,92 @@
   ],
   "latestMorning": [
    {
-    "date": "2026-11-17",
-    "code": "002905",
-    "name": "金逸影视",
-    "lianban": 2,
-    "score": 55.6,
-    "open_pct": 3.76,
-    "vol_ratio": 44.89,
-    "advice": "接力",
-    "note": "接力区 量比44.9量能足"
+    "date": "2026-11-18",
+    "code": "002771",
+    "name": "真视通",
+    "lianban": 1,
+    "score": 47.4,
+    "open_pct": 9.34,
+    "vol_ratio": 107.63,
+    "advice": "放弃",
+    "note": "高开9.3%兑现风险区(>7%)"
    },
    {
-    "date": "2026-11-17",
-    "code": "002548",
-    "name": "金新农",
-    "lianban": 2,
-    "score": 44.2,
-    "open_pct": 0.0,
-    "vol_ratio": 69.05,
-    "advice": "观望",
-    "note": "争议区0.0%(0-3%)"
-   },
-   {
-    "date": "2026-11-17",
-    "code": "002187",
-    "name": "广百股份",
-    "lianban": 3,
-    "score": 58.2,
-    "open_pct": 9.91,
-    "vol_ratio": 64.08,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "code": "002685",
     "name": "华东重机",
-    "lianban": 2,
-    "score": 48.9,
-    "open_pct": 10.02,
-    "vol_ratio": 39.32,
+    "lianban": 3,
+    "score": 63.0,
+    "open_pct": 10.0,
+    "vol_ratio": 18.28,
     "advice": "买不进",
     "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-11-17",
-    "code": "002425",
-    "name": "凯撒文化",
+    "date": "2026-11-18",
+    "code": "000521",
+    "name": "长虹美菱",
     "lianban": 2,
-    "score": 60.5,
-    "open_pct": -5.73,
-    "vol_ratio": 24.63,
-    "advice": "回避",
-    "note": "低开-5.7%且昨日机构净卖-2,500万"
+    "score": 51.4,
+    "open_pct": 9.92,
+    "vol_ratio": 117.78,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
    },
    {
-    "date": "2026-11-17",
-    "code": "600715",
-    "name": "文投控股",
+    "date": "2026-11-18",
+    "code": "002451",
+    "name": "摩恩电气",
+    "lianban": 1,
+    "score": 50.4,
+    "open_pct": 9.96,
+    "vol_ratio": 73.74,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-18",
+    "code": "002584",
+    "name": "西陇科学",
+    "lianban": 1,
+    "score": 44.9,
+    "open_pct": 9.99,
+    "vol_ratio": 92.8,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-18",
+    "code": "300786",
+    "name": "国林科技",
+    "lianban": 1,
+    "score": 44.9,
+    "open_pct": 11.12,
+    "vol_ratio": 36.64,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-18",
+    "code": "603324",
+    "name": "盛剑科技",
+    "lianban": 1,
+    "score": 43.8,
+    "open_pct": 9.99,
+    "vol_ratio": 19.64,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-18",
+    "code": "002861",
+    "name": "瀛通通讯",
     "lianban": 2,
-    "score": 52.1,
-    "open_pct": -9.89,
-    "vol_ratio": 6.95,
+    "score": 47.1,
+    "open_pct": -3.28,
+    "vol_ratio": 12.03,
     "advice": "回避",
-    "note": "低开-9.9%走弱"
-   },
-   {
-    "date": "2026-11-17",
-    "code": "002148",
-    "name": "北纬科技",
-    "lianban": 4,
-    "score": 50.1,
-    "open_pct": -1.94,
-    "vol_ratio": 26.08,
-    "advice": "回避",
-    "note": "低开-1.9%走弱"
-   },
-   {
-    "date": "2026-11-17",
-    "code": "002205",
-    "name": "国统股份",
-    "lianban": 3,
-    "score": 41.9,
-    "open_pct": -9.92,
-    "vol_ratio": 16.73,
-    "advice": "回避",
-    "note": "低开-9.9%走弱"
+    "note": "低开-3.3%走弱"
    }
   ],
   "trades": [
@@ -2042,6 +2043,60 @@
    }
   ],
   "pushes": [
+   {
+    "date": "2026-11-17",
+    "time": "21:24",
+    "task": "dashboard",
+    "channel": "github",
+    "status": "ok",
+    "message_id": "-",
+    "note": "Pages 推送（内置4次重试失败后手动重试成功）"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "21:24",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b60f11b81b0a4b079ae1c47c6dae",
+    "note": "20261117 摘要"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "21:22",
+    "task": "theme",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "更正：20261117 板块快照 主线0个/发酵1个（一般零售），活跃4/退潮1（汽车零部件）"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "21:22",
+    "task": "evening",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "20261117 报告生成（8只，复苏）"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "21:22",
+    "task": "paper",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "结算净值 ¥863,777（-1.72%），买入 6 只"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "21:22",
+    "task": "theme",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "板块快照：主线3个/发酵2个"
+   },
    {
     "date": "2026-11-17",
     "time": "09:37",
