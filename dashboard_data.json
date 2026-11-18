@@ -2,10 +2,10 @@
  "title": "涨停板策略作战看板",
  "subtitle": "次日涨停候选池 · 纸面组合 · 竞价晨报 · 回测回溯 · 推送记录",
  "timezone": "Asia/Shanghai",
- "generatedAt": "2026-11-18T09:27:32+08:00",
+ "generatedAt": "2026-11-18T21:18:55+08:00",
  "freshness": {
-  "latestDataDate": "20261117",
-  "latestCapturedAt": "2026-11-18T09:27:15+08:00",
+  "latestDataDate": "20261118",
+  "latestCapturedAt": "2026-11-18T21:17:03+08:00",
   "source": "zt_screener 定时任务快照"
  },
  "availableDates": [
@@ -36,7 +36,6 @@
   "2026-11-16",
   "2026-11-17",
   "2026-11-18",
-  "20260511",
   "20260512",
   "20260513",
   "20260514",
@@ -165,29 +164,30 @@
   "20261112",
   "20261113",
   "20261116",
-  "20261117"
+  "20261117",
+  "20261118"
  ],
  "defaultRange": "ALL",
  "kpis": [
   {
    "id": "kpi-equity",
    "label": "纸面组合净值",
-   "value": "¥863,777",
-   "delta": "-1.72%",
+   "value": "¥823,734",
+   "delta": "-4.64%",
    "detail": "起始资金 ¥1,000,000 ｜ 1日持仓 · 开盘买收盘卖"
   },
   {
    "id": "kpi-return",
    "label": "累计收益率",
-   "value": "-13.62%",
-   "delta": "25 个交易日",
+   "value": "-17.63%",
+   "delta": "26 个交易日",
    "detail": "自 2026-10-14 起逐日滚动"
   },
   {
    "id": "kpi-winrate",
    "label": "胜率（已平仓）",
-   "value": "45.4%",
-   "delta": "119 笔",
+   "value": "45.0%",
+   "delta": "120 笔",
    "detail": "单票收益>0 占比"
   },
   {
@@ -201,15 +201,15 @@
    "id": "kpi-sentiment",
    "label": "最新情绪阶段",
    "value": "复苏",
-   "delta": "涨停 37 家 ｜ 炸板率 35%",
-   "detail": "1进2晋级率 0.238 ｜ 情绪分 0.34"
+   "delta": "涨停 41 家 ｜ 炸板率 37%",
+   "detail": "1进2晋级率 0.226 ｜ 情绪分 0.37"
   },
   {
    "id": "kpi-fresh",
    "label": "数据新鲜度",
-   "value": "2026-11-17",
+   "value": "2026-11-18",
    "delta": "收盘口径",
-   "detail": "更新于 2026-11-17T21:16:24+08:00"
+   "detail": "更新于 2026-11-18T21:17:03+08:00"
   }
  ],
  "datasets": {
@@ -388,6 +388,13 @@
     "ret_pct": -1.724,
     "n_buy": 6,
     "n_skip": 2
+   },
+   {
+    "date": "2026-11-18",
+    "equity": 823733.63,
+    "ret_pct": -4.636,
+    "n_buy": 1,
+    "n_skip": 7
    }
   ],
   "sentiment": [
@@ -572,6 +579,13 @@
     "zhaban_rate": 35.1,
     "promo": 0.238,
     "stage": "复苏"
+   },
+   {
+    "date": "2026-11-18",
+    "zt": 41,
+    "zhaban_rate": 36.9,
+    "promo": 0.226,
+    "stage": "复苏"
    }
   ],
   "monthly": [
@@ -648,114 +662,114 @@
   ],
   "latestPool": [
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "rank": 1,
+    "code": "002771",
+    "name": "真视通",
+    "industry": "IT服务Ⅱ",
+    "lianban": 2,
+    "first_time": "09:30",
+    "seal_pct": 4.6,
+    "winner": null,
+    "score": 69.0,
+    "inst_net": -1964.0,
+    "famous": "-"
+   },
+   {
+    "date": "2026-11-18",
+    "rank": 2,
     "code": "002685",
     "name": "华东重机",
     "industry": "工程机械",
-    "lianban": 3,
+    "lianban": 4,
     "first_time": "09:25",
-    "seal_pct": 4.0,
-    "winner": 94.6,
-    "score": 63.0,
+    "seal_pct": 7.2,
+    "winner": null,
+    "score": 62.8,
+    "inst_net": -2002.0,
+    "famous": "-"
+   },
+   {
+    "date": "2026-11-18",
+    "rank": 3,
+    "code": "600410",
+    "name": "华胜天成",
+    "industry": "IT服务Ⅱ",
+    "lianban": 2,
+    "first_time": "09:55",
+    "seal_pct": 1.5,
+    "winner": null,
+    "score": 61.8,
     "inst_net": null,
     "famous": "-"
    },
    {
-    "date": "2026-11-17",
-    "rank": 2,
-    "code": "000521",
-    "name": "长虹美菱",
-    "industry": "白色家电",
+    "date": "2026-11-18",
+    "rank": 4,
+    "code": "603030",
+    "name": "全筑股份",
+    "industry": "装修装饰",
     "lianban": 2,
-    "first_time": "09:32",
-    "seal_pct": 2.4,
-    "winner": 62.2,
+    "first_time": "09:25",
+    "seal_pct": 3.1,
+    "winner": null,
     "score": 51.4,
     "inst_net": null,
     "famous": "-"
    },
    {
-    "date": "2026-11-17",
-    "rank": 3,
-    "code": "002451",
-    "name": "摩恩电气",
-    "industry": "电网设备",
-    "lianban": 1,
-    "first_time": "09:25",
-    "seal_pct": 14.2,
-    "winner": 41.2,
-    "score": 50.4,
-    "inst_net": null,
-    "famous": "-"
-   },
-   {
-    "date": "2026-11-17",
-    "rank": 4,
-    "code": "002771",
-    "name": "真视通",
-    "industry": "IT服务Ⅱ",
-    "lianban": 1,
-    "first_time": "09:33",
-    "seal_pct": 2.8,
-    "winner": 82.5,
-    "score": 47.4,
-    "inst_net": null,
-    "famous": "-"
-   },
-   {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "rank": 5,
-    "code": "002861",
-    "name": "瀛通通讯",
-    "industry": "消费电子",
-    "lianban": 2,
-    "first_time": "09:38",
-    "seal_pct": 1.9,
-    "winner": 99.0,
-    "score": 47.1,
-    "inst_net": 731.0,
-    "famous": "-"
-   },
-   {
-    "date": "2026-11-17",
-    "rank": 6,
-    "code": "002584",
-    "name": "西陇科学",
-    "industry": "电子化学",
-    "lianban": 1,
-    "first_time": "09:35",
-    "seal_pct": 2.1,
-    "winner": 97.4,
-    "score": 44.9,
-    "inst_net": null,
-    "famous": "-"
-   },
-   {
-    "date": "2026-11-17",
-    "rank": 7,
-    "code": "300786",
-    "name": "国林科技",
-    "industry": "环保设备",
-    "lianban": 1,
-    "first_time": "09:34",
-    "seal_pct": 2.5,
-    "winner": 95.8,
-    "score": 44.9,
-    "inst_net": -203.0,
-    "famous": "-"
-   },
-   {
-    "date": "2026-11-17",
-    "rank": 8,
     "code": "603324",
     "name": "盛剑科技",
     "industry": "环保设备",
+    "lianban": 2,
+    "first_time": "09:25",
+    "seal_pct": 1.6,
+    "winner": null,
+    "score": 50.8,
+    "inst_net": -212.0,
+    "famous": "-"
+   },
+   {
+    "date": "2026-11-18",
+    "rank": 6,
+    "code": "002148",
+    "name": "北纬科技",
+    "industry": "通信服务",
     "lianban": 1,
-    "first_time": "09:35",
+    "first_time": "09:30",
     "seal_pct": 1.9,
-    "winner": 50.6,
-    "score": 43.8,
+    "winner": null,
+    "score": 50.3,
+    "inst_net": -2083.0,
+    "famous": "√"
+   },
+   {
+    "date": "2026-11-18",
+    "rank": 7,
+    "code": "603887",
+    "name": "城地香江",
+    "industry": "IT服务Ⅱ",
+    "lianban": 1,
+    "first_time": "10:14",
+    "seal_pct": 1.5,
+    "winner": null,
+    "score": 49.9,
+    "inst_net": null,
+    "famous": "-"
+   },
+   {
+    "date": "2026-11-18",
+    "rank": 8,
+    "code": "000815",
+    "name": "美利云",
+    "industry": "IT服务Ⅱ",
+    "lianban": 1,
+    "first_time": "10:05",
+    "seal_pct": 1.1,
+    "winner": null,
+    "score": 49.9,
     "inst_net": null,
     "famous": "-"
    }
@@ -851,6 +865,16 @@
    }
   ],
   "trades": [
+   {
+    "date": "20261118",
+    "code": "002861",
+    "name": "瀛通通讯",
+    "advice": "回避",
+    "open_pct": -3.28,
+    "buy": 14.499,
+    "sell": 13.84,
+    "ret_pct": -4.64
+   },
    {
     "date": "20261117",
     "code": "002205",
@@ -2043,6 +2067,33 @@
    }
   ],
   "pushes": [
+   {
+    "date": "2026-11-18",
+    "time": "09:35",
+    "task": "dashboard",
+    "channel": "github",
+    "status": "failed",
+    "message_id": "-",
+    "note": "晨间 Pages 推送"
+   },
+   {
+    "date": "2026-11-18",
+    "time": "09:33",
+    "task": "morning",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "20261118 晨报（接力0只/平均高开8.38%）"
+   },
+   {
+    "date": "2026-11-18",
+    "time": "09:33",
+    "task": "morning",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b60e44a3a9450b07a800352abe66",
+    "note": "晨报"
+   },
    {
     "date": "2026-11-17",
     "time": "21:24",
@@ -3883,405 +3934,6 @@
    }
   ],
   "themes": [
-   {
-    "date": "20260511",
-    "industry": "IT服务Ⅱ",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.0
-   },
-   {
-    "date": "20260511",
-    "industry": "专用设备",
-    "zt_cnt": 2,
-    "max_lb": 2,
-    "seal_y": 2.4
-   },
-   {
-    "date": "20260511",
-    "industry": "中药Ⅱ",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.0
-   },
-   {
-    "date": "20260511",
-    "industry": "互联网电",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 1.0
-   },
-   {
-    "date": "20260511",
-    "industry": "元件",
-    "zt_cnt": 7,
-    "max_lb": 3,
-    "seal_y": 6.8
-   },
-   {
-    "date": "20260511",
-    "industry": "光伏设备",
-    "zt_cnt": 3,
-    "max_lb": 2,
-    "seal_y": 1.4
-   },
-   {
-    "date": "20260511",
-    "industry": "光学光电",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.1
-   },
-   {
-    "date": "20260511",
-    "industry": "其他电子",
-    "zt_cnt": 4,
-    "max_lb": 1,
-    "seal_y": 2.8
-   },
-   {
-    "date": "20260511",
-    "industry": "其他电源",
-    "zt_cnt": 2,
-    "max_lb": 1,
-    "seal_y": 0.0
-   },
-   {
-    "date": "20260511",
-    "industry": "养殖业",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.5
-   },
-   {
-    "date": "20260511",
-    "industry": "军工电子",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 2.0
-   },
-   {
-    "date": "20260511",
-    "industry": "农化制品",
-    "zt_cnt": 2,
-    "max_lb": 2,
-    "seal_y": 0.6
-   },
-   {
-    "date": "20260511",
-    "industry": "出版",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.4
-   },
-   {
-    "date": "20260511",
-    "industry": "包装印刷",
-    "zt_cnt": 2,
-    "max_lb": 2,
-    "seal_y": 0.7
-   },
-   {
-    "date": "20260511",
-    "industry": "化学制品",
-    "zt_cnt": 2,
-    "max_lb": 1,
-    "seal_y": 1.4
-   },
-   {
-    "date": "20260511",
-    "industry": "化学制药",
-    "zt_cnt": 6,
-    "max_lb": 1,
-    "seal_y": 4.3
-   },
-   {
-    "date": "20260511",
-    "industry": "化学原料",
-    "zt_cnt": 2,
-    "max_lb": 1,
-    "seal_y": 0.0
-   },
-   {
-    "date": "20260511",
-    "industry": "医疗器械",
-    "zt_cnt": 2,
-    "max_lb": 2,
-    "seal_y": 1.2
-   },
-   {
-    "date": "20260511",
-    "industry": "半导体",
-    "zt_cnt": 9,
-    "max_lb": 1,
-    "seal_y": 6.8
-   },
-   {
-    "date": "20260511",
-    "industry": "地面兵装",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 1.2
-   },
-   {
-    "date": "20260511",
-    "industry": "基础建设",
-    "zt_cnt": 2,
-    "max_lb": 1,
-    "seal_y": 0.0
-   },
-   {
-    "date": "20260511",
-    "industry": "塑料",
-    "zt_cnt": 3,
-    "max_lb": 1,
-    "seal_y": 3.2
-   },
-   {
-    "date": "20260511",
-    "industry": "家居用品",
-    "zt_cnt": 4,
-    "max_lb": 2,
-    "seal_y": 1.5
-   },
-   {
-    "date": "20260511",
-    "industry": "家电零部",
-    "zt_cnt": 2,
-    "max_lb": 1,
-    "seal_y": 0.1
-   },
-   {
-    "date": "20260511",
-    "industry": "小家电",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.2
-   },
-   {
-    "date": "20260511",
-    "industry": "小金属",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.1
-   },
-   {
-    "date": "20260511",
-    "industry": "工业金属",
-    "zt_cnt": 2,
-    "max_lb": 1,
-    "seal_y": 1.1
-   },
-   {
-    "date": "20260511",
-    "industry": "工程机械",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.5
-   },
-   {
-    "date": "20260511",
-    "industry": "房地产开发",
-    "zt_cnt": 5,
-    "max_lb": 2,
-    "seal_y": 1.8
-   },
-   {
-    "date": "20260511",
-    "industry": "橡胶",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.7
-   },
-   {
-    "date": "20260511",
-    "industry": "水泥",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.7
-   },
-   {
-    "date": "20260511",
-    "industry": "汽车零部件",
-    "zt_cnt": 2,
-    "max_lb": 1,
-    "seal_y": 0.2
-   },
-   {
-    "date": "20260511",
-    "industry": "消费电子",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.0
-   },
-   {
-    "date": "20260511",
-    "industry": "炼化及贸",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.0
-   },
-   {
-    "date": "20260511",
-    "industry": "照明设备",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.2
-   },
-   {
-    "date": "20260511",
-    "industry": "燃气Ⅱ",
-    "zt_cnt": 2,
-    "max_lb": 1,
-    "seal_y": 1.1
-   },
-   {
-    "date": "20260511",
-    "industry": "环保设备",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.0
-   },
-   {
-    "date": "20260511",
-    "industry": "环境治理",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.2
-   },
-   {
-    "date": "20260511",
-    "industry": "玻璃玻纤",
-    "zt_cnt": 1,
-    "max_lb": 3,
-    "seal_y": 1.1
-   },
-   {
-    "date": "20260511",
-    "industry": "生物制品",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.0
-   },
-   {
-    "date": "20260511",
-    "industry": "电力",
-    "zt_cnt": 4,
-    "max_lb": 4,
-    "seal_y": 9.5
-   },
-   {
-    "date": "20260511",
-    "industry": "电子化学",
-    "zt_cnt": 3,
-    "max_lb": 1,
-    "seal_y": 4.8
-   },
-   {
-    "date": "20260511",
-    "industry": "电机Ⅱ",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.7
-   },
-   {
-    "date": "20260511",
-    "industry": "电网设备",
-    "zt_cnt": 3,
-    "max_lb": 1,
-    "seal_y": 0.2
-   },
-   {
-    "date": "20260511",
-    "industry": "纺织制造",
-    "zt_cnt": 2,
-    "max_lb": 2,
-    "seal_y": 0.1
-   },
-   {
-    "date": "20260511",
-    "industry": "综合Ⅱ",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.0
-   },
-   {
-    "date": "20260511",
-    "industry": "自动化设",
-    "zt_cnt": 8,
-    "max_lb": 1,
-    "seal_y": 3.7
-   },
-   {
-    "date": "20260511",
-    "industry": "装修建材",
-    "zt_cnt": 2,
-    "max_lb": 1,
-    "seal_y": 1.7
-   },
-   {
-    "date": "20260511",
-    "industry": "装修装饰",
-    "zt_cnt": 2,
-    "max_lb": 2,
-    "seal_y": 0.0
-   },
-   {
-    "date": "20260511",
-    "industry": "计算机设",
-    "zt_cnt": 2,
-    "max_lb": 1,
-    "seal_y": 4.9
-   },
-   {
-    "date": "20260511",
-    "industry": "证券Ⅱ",
-    "zt_cnt": 2,
-    "max_lb": 1,
-    "seal_y": 0.8
-   },
-   {
-    "date": "20260511",
-    "industry": "通信服务",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.0
-   },
-   {
-    "date": "20260511",
-    "industry": "通信设备",
-    "zt_cnt": 7,
-    "max_lb": 3,
-    "seal_y": 5.0
-   },
-   {
-    "date": "20260511",
-    "industry": "通用设备",
-    "zt_cnt": 6,
-    "max_lb": 1,
-    "seal_y": 5.6
-   },
-   {
-    "date": "20260511",
-    "industry": "金属新材",
-    "zt_cnt": 1,
-    "max_lb": 5,
-    "seal_y": 1.4
-   },
-   {
-    "date": "20260511",
-    "industry": "风电设备",
-    "zt_cnt": 1,
-    "max_lb": 1,
-    "seal_y": 0.0
-   },
-   {
-    "date": "20260511",
-    "industry": "食品加工",
-    "zt_cnt": 1,
-    "max_lb": 2,
-    "seal_y": 0.5
-   },
    {
     "date": "20260512",
     "industry": "IT服务Ⅱ",
@@ -51825,458 +51477,786 @@
     "zt_cnt": 1,
     "max_lb": 3,
     "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "IT服务Ⅱ",
+    "zt_cnt": 7,
+    "max_lb": 2,
+    "seal_y": 8.9
+   },
+   {
+    "date": "20261118",
+    "industry": "一般零售",
+    "zt_cnt": 4,
+    "max_lb": 4,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "专业服务",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.8
+   },
+   {
+    "date": "20261118",
+    "industry": "专用设备",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "元件",
+    "zt_cnt": 4,
+    "max_lb": 1,
+    "seal_y": 2.5
+   },
+   {
+    "date": "20261118",
+    "industry": "光伏设备",
+    "zt_cnt": 3,
+    "max_lb": 4,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "光学光电",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.3
+   },
+   {
+    "date": "20261118",
+    "industry": "其他电子",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.2
+   },
+   {
+    "date": "20261118",
+    "industry": "其他电源",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.6
+   },
+   {
+    "date": "20261118",
+    "industry": "农产品加",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "化学制品",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "化学制药",
+    "zt_cnt": 1,
+    "max_lb": 3,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "化学原料",
+    "zt_cnt": 1,
+    "max_lb": 2,
+    "seal_y": 0.2
+   },
+   {
+    "date": "20261118",
+    "industry": "医药商业",
+    "zt_cnt": 1,
+    "max_lb": 2,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "厨卫电器",
+    "zt_cnt": 2,
+    "max_lb": 3,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "家居用品",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "家电零部",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.5
+   },
+   {
+    "date": "20261118",
+    "industry": "小家电",
+    "zt_cnt": 4,
+    "max_lb": 1,
+    "seal_y": 0.9
+   },
+   {
+    "date": "20261118",
+    "industry": "小金属",
+    "zt_cnt": 1,
+    "max_lb": 2,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "工业金属",
+    "zt_cnt": 1,
+    "max_lb": 4,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "工程机械",
+    "zt_cnt": 1,
+    "max_lb": 4,
+    "seal_y": 5.3
+   },
+   {
+    "date": "20261118",
+    "industry": "影视院线",
+    "zt_cnt": 3,
+    "max_lb": 2,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "房地产开发",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.2
+   },
+   {
+    "date": "20261118",
+    "industry": "教育",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "数字媒体",
+    "zt_cnt": 2,
+    "max_lb": 1,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "水泥",
+    "zt_cnt": 2,
+    "max_lb": 2,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "汽车零部件",
+    "zt_cnt": 3,
+    "max_lb": 1,
+    "seal_y": 0.5
+   },
+   {
+    "date": "20261118",
+    "industry": "消费电子",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 2.4
+   },
+   {
+    "date": "20261118",
+    "industry": "游戏Ⅱ",
+    "zt_cnt": 4,
+    "max_lb": 2,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "炼化及贸",
+    "zt_cnt": 1,
+    "max_lb": 2,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "焦炭Ⅱ",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "照明设备",
+    "zt_cnt": 2,
+    "max_lb": 3,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "物流",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "环保设备",
+    "zt_cnt": 2,
+    "max_lb": 2,
+    "seal_y": 0.5
+   },
+   {
+    "date": "20261118",
+    "industry": "环境治理",
+    "zt_cnt": 2,
+    "max_lb": 1,
+    "seal_y": 0.5
+   },
+   {
+    "date": "20261118",
+    "industry": "电子化学",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "电池",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "电网设备",
+    "zt_cnt": 2,
+    "max_lb": 1,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "电视广播",
+    "zt_cnt": 2,
+    "max_lb": 2,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "白色家电",
+    "zt_cnt": 2,
+    "max_lb": 1,
+    "seal_y": 0.3
+   },
+   {
+    "date": "20261118",
+    "industry": "纺织制造",
+    "zt_cnt": 3,
+    "max_lb": 2,
+    "seal_y": 0.9
+   },
+   {
+    "date": "20261118",
+    "industry": "自动化设",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "航空装备",
+    "zt_cnt": 2,
+    "max_lb": 1,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "装修装饰",
+    "zt_cnt": 3,
+    "max_lb": 2,
+    "seal_y": 0.9
+   },
+   {
+    "date": "20261118",
+    "industry": "计算机设",
+    "zt_cnt": 5,
+    "max_lb": 2,
+    "seal_y": 1.5
+   },
+   {
+    "date": "20261118",
+    "industry": "调味发酵",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 1.0
+   },
+   {
+    "date": "20261118",
+    "industry": "通信服务",
+    "zt_cnt": 5,
+    "max_lb": 1,
+    "seal_y": 4.2
+   },
+   {
+    "date": "20261118",
+    "industry": "通信设备",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 1.2
+   },
+   {
+    "date": "20261118",
+    "industry": "通用设备",
+    "zt_cnt": 4,
+    "max_lb": 2,
+    "seal_y": 1.6
+   },
+   {
+    "date": "20261118",
+    "industry": "铁路公路",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "风电设备",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 0.3
+   },
+   {
+    "date": "20261118",
+    "industry": "饮料乳品",
+    "zt_cnt": 2,
+    "max_lb": 1,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "饲料",
+    "zt_cnt": 1,
+    "max_lb": 4,
+    "seal_y": 0.0
+   },
+   {
+    "date": "20261118",
+    "industry": "黑色家电",
+    "zt_cnt": 1,
+    "max_lb": 1,
+    "seal_y": 2.1
    }
   ],
   "themeRank": [
    {
-    "industry": "一般零售",
-    "zt_cnt": 8,
-    "avg5": 4.8,
-    "delta": 3.2,
-    "max_lb": 3,
-    "streak": 3,
-    "status": "发酵",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "通用设备",
-    "zt_cnt": 6,
-    "avg5": 6.2,
-    "delta": -0.2,
+    "industry": "IT服务Ⅱ",
+    "zt_cnt": 7,
+    "avg5": 3.2,
+    "delta": 3.8,
     "max_lb": 2,
-    "streak": 7,
-    "status": "活跃",
-    "date": "2026-11-17"
+    "streak": 1,
+    "status": "发酵",
+    "date": "2026-11-18"
    },
    {
-    "industry": "化学制品",
-    "zt_cnt": 6,
-    "avg5": 3.0,
+    "industry": "计算机设",
+    "zt_cnt": 5,
+    "avg5": 2.8,
+    "delta": 2.2,
+    "max_lb": 2,
+    "streak": 1,
+    "status": "活跃",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "通信服务",
+    "zt_cnt": 5,
+    "avg5": 2.0,
     "delta": 3.0,
     "max_lb": 1,
     "streak": 1,
     "status": "活跃",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
-    "industry": "影视院线",
-    "zt_cnt": 6,
-    "avg5": 3.6,
-    "delta": 2.4,
-    "max_lb": 1,
-    "streak": 1,
-    "status": "活跃",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "光学光电",
-    "zt_cnt": 5,
-    "avg5": 3.0,
-    "delta": 2.0,
-    "max_lb": 1,
-    "streak": 1,
-    "status": "活跃",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "汽车零部件",
+    "industry": "一般零售",
     "zt_cnt": 4,
-    "avg5": 6.8,
-    "delta": -2.8,
-    "max_lb": 3,
-    "streak": 0,
-    "status": "退潮",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "IT服务Ⅱ",
-    "zt_cnt": 4,
-    "avg5": 2.2,
-    "delta": 1.8,
-    "max_lb": 2,
+    "avg5": 5.2,
+    "delta": -1.2,
+    "max_lb": 4,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "专用设备",
-    "zt_cnt": 4,
-    "avg5": 4.2,
-    "delta": -0.2,
-    "max_lb": 2,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
     "industry": "游戏Ⅱ",
     "zt_cnt": 4,
-    "avg5": 3.0,
-    "delta": 1.0,
+    "avg5": 2.8,
+    "delta": 1.2,
+    "max_lb": 2,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "通用设备",
+    "zt_cnt": 4,
+    "avg5": 5.2,
+    "delta": -1.2,
+    "max_lb": 2,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "元件",
+    "zt_cnt": 4,
+    "avg5": 3.2,
+    "delta": 0.8,
     "max_lb": 1,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "小家电",
+    "zt_cnt": 4,
+    "avg5": 2.5,
+    "delta": 1.5,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
    },
    {
     "industry": "光伏设备",
     "zt_cnt": 3,
-    "avg5": 3.0,
-    "delta": 0.0,
-    "max_lb": 3,
+    "avg5": 2.8,
+    "delta": 0.2,
+    "max_lb": 4,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
-    "industry": "出版",
+    "industry": "影视院线",
+    "zt_cnt": 3,
+    "avg5": 3.8,
+    "delta": -0.8,
+    "max_lb": 2,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "纺织制造",
     "zt_cnt": 3,
     "avg5": 1.5,
     "delta": 1.5,
-    "max_lb": 3,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "照明设备",
-    "zt_cnt": 3,
-    "avg5": 1.6,
-    "delta": 1.4,
     "max_lb": 2,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
-    "industry": "塑料",
-    "zt_cnt": 3,
-    "avg5": 2.4,
-    "delta": 0.6,
-    "max_lb": 1,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "环保设备",
-    "zt_cnt": 3,
-    "avg5": 2.0,
-    "delta": 1.0,
-    "max_lb": 1,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "电力",
+    "industry": "装修装饰",
     "zt_cnt": 3,
     "avg5": 1.8,
     "delta": 1.2,
-    "max_lb": 1,
+    "max_lb": 2,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
-    "industry": "电子化学",
+    "industry": "汽车零部件",
     "zt_cnt": 3,
-    "avg5": 3.0,
-    "delta": 0.0,
+    "avg5": 5.2,
+    "delta": -2.2,
     "max_lb": 1,
     "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
+    "status": "退潮",
+    "date": "2026-11-18"
    },
    {
-    "industry": "电视广播",
-    "zt_cnt": 3,
-    "avg5": 2.0,
-    "delta": 1.0,
-    "max_lb": 1,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "计算机设",
-    "zt_cnt": 3,
-    "avg5": 1.8,
-    "delta": 1.2,
-    "max_lb": 1,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "小家电",
-    "zt_cnt": 2,
-    "avg5": 2.0,
-    "delta": 0.0,
-    "max_lb": 2,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "小金属",
-    "zt_cnt": 2,
-    "avg5": 2.5,
-    "delta": -0.5,
-    "max_lb": 2,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "消费电子",
-    "zt_cnt": 2,
-    "avg5": 1.7,
-    "delta": 0.3,
-    "max_lb": 2,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "电网设备",
-    "zt_cnt": 2,
-    "avg5": 1.4,
-    "delta": 0.6,
-    "max_lb": 2,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "化学原料",
-    "zt_cnt": 2,
-    "avg5": 1.4,
-    "delta": 0.6,
-    "max_lb": 1,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "半导体",
+    "industry": "厨卫电器",
     "zt_cnt": 2,
     "avg5": 1.5,
     "delta": 0.5,
-    "max_lb": 1,
+    "max_lb": 3,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
-    "industry": "房地产开发",
-    "zt_cnt": 2,
-    "avg5": 1.4,
-    "delta": 0.6,
-    "max_lb": 1,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "炼化及贸",
+    "industry": "照明设备",
     "zt_cnt": 2,
     "avg5": 1.8,
     "delta": 0.2,
-    "max_lb": 1,
+    "max_lb": 3,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
-    "industry": "综合Ⅱ",
+    "industry": "水泥",
+    "zt_cnt": 2,
+    "avg5": 1.8,
+    "delta": 0.2,
+    "max_lb": 2,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "环保设备",
     "zt_cnt": 2,
     "avg5": 2.0,
     "delta": 0.0,
-    "max_lb": 1,
+    "max_lb": 2,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
-    "industry": "造纸",
+    "industry": "电视广播",
+    "zt_cnt": 2,
+    "avg5": 2.0,
+    "delta": 0.0,
+    "max_lb": 2,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "数字媒体",
     "zt_cnt": 2,
     "avg5": 1.3,
     "delta": 0.7,
     "max_lb": 1,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
-    "industry": "休闲食品",
-    "zt_cnt": 1,
+    "industry": "环境治理",
+    "zt_cnt": 2,
     "avg5": 1.2,
-    "delta": -0.2,
-    "max_lb": 3,
+    "delta": 0.8,
+    "max_lb": 1,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "电网设备",
+    "zt_cnt": 2,
+    "avg5": 1.4,
+    "delta": 0.6,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "白色家电",
+    "zt_cnt": 2,
+    "avg5": 1.3,
+    "delta": 0.7,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "航空装备",
+    "zt_cnt": 2,
+    "avg5": 2.0,
+    "delta": 0.0,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "饮料乳品",
+    "zt_cnt": 2,
+    "avg5": 1.2,
+    "delta": 0.8,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
    },
    {
     "industry": "工业金属",
     "zt_cnt": 1,
     "avg5": 1.0,
     "delta": 0.0,
-    "max_lb": 3,
+    "max_lb": 4,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
     "industry": "工程机械",
     "zt_cnt": 1,
     "avg5": 1.0,
     "delta": 0.0,
-    "max_lb": 3,
+    "max_lb": 4,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "食品加工",
-    "zt_cnt": 1,
-    "avg5": 1.2,
-    "delta": -0.2,
-    "max_lb": 3,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
     "industry": "饲料",
     "zt_cnt": 1,
-    "avg5": 1.5,
-    "delta": -0.5,
-    "max_lb": 3,
+    "avg5": 1.4,
+    "delta": -0.4,
+    "max_lb": 4,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
     "industry": "化学制药",
     "zt_cnt": 1,
     "avg5": 1.0,
     "delta": 0.0,
-    "max_lb": 2,
+    "max_lb": 3,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
-    "industry": "厨卫电器",
+    "industry": "化学原料",
     "zt_cnt": 1,
     "avg5": 1.2,
     "delta": -0.2,
     "max_lb": 2,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "家居用品",
-    "zt_cnt": 1,
-    "avg5": 1.4,
-    "delta": -0.4,
-    "max_lb": 2,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "摩托车及",
-    "zt_cnt": 1,
-    "avg5": 1.0,
-    "delta": 0.0,
-    "max_lb": 2,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "数字媒体",
-    "zt_cnt": 1,
-    "avg5": 1.3,
-    "delta": -0.3,
-    "max_lb": 2,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "服装家纺",
-    "zt_cnt": 1,
-    "avg5": 1.8,
-    "delta": -0.8,
-    "max_lb": 2,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "燃气Ⅱ",
-    "zt_cnt": 1,
-    "avg5": 2.0,
-    "delta": -1.0,
-    "max_lb": 2,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "环境治理",
-    "zt_cnt": 1,
-    "avg5": 1.0,
-    "delta": 0.0,
-    "max_lb": 2,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "白色家电",
-    "zt_cnt": 1,
-    "avg5": 1.0,
-    "delta": 0.0,
-    "max_lb": 2,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "专业工程",
-    "zt_cnt": 1,
-    "avg5": 1.5,
-    "delta": -0.5,
-    "max_lb": 1,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "农化制品",
-    "zt_cnt": 1,
-    "avg5": 1.0,
-    "delta": 0.0,
-    "max_lb": 1,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
     "industry": "医药商业",
     "zt_cnt": 1,
     "avg5": 1.0,
     "delta": 0.0,
+    "max_lb": 2,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "小金属",
+    "zt_cnt": 1,
+    "avg5": 2.0,
+    "delta": -1.0,
+    "max_lb": 2,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "炼化及贸",
+    "zt_cnt": 1,
+    "avg5": 1.6,
+    "delta": -0.6,
+    "max_lb": 2,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "专业服务",
+    "zt_cnt": 1,
+    "avg5": 1.0,
+    "delta": 0.0,
     "max_lb": 1,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "专用设备",
+    "zt_cnt": 1,
+    "avg5": 2.8,
+    "delta": -1.8,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "光学光电",
+    "zt_cnt": 1,
+    "avg5": 2.3,
+    "delta": -1.3,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "其他电子",
+    "zt_cnt": 1,
+    "avg5": 1.0,
+    "delta": 0.0,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "其他电源",
+    "zt_cnt": 1,
+    "avg5": 1.0,
+    "delta": 0.0,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "农产品加",
+    "zt_cnt": 1,
+    "avg5": 1.0,
+    "delta": 0.0,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "化学制品",
+    "zt_cnt": 1,
+    "avg5": 2.6,
+    "delta": -1.6,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "家居用品",
+    "zt_cnt": 1,
+    "avg5": 1.4,
+    "delta": -0.4,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
    },
    {
     "industry": "家电零部",
@@ -52286,57 +52266,47 @@
     "max_lb": 1,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
-    "industry": "广告营销",
+    "industry": "房地产开发",
+    "zt_cnt": 1,
+    "avg5": 1.4,
+    "delta": -0.4,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "教育",
     "zt_cnt": 1,
     "avg5": 1.0,
     "delta": 0.0,
     "max_lb": 1,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
-    "industry": "房屋建设",
+    "industry": "消费电子",
+    "zt_cnt": 1,
+    "avg5": 1.3,
+    "delta": -0.3,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "焦炭Ⅱ",
     "zt_cnt": 1,
     "avg5": 1.0,
     "delta": 0.0,
     "max_lb": 1,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "水泥",
-    "zt_cnt": 1,
-    "avg5": 1.8,
-    "delta": -0.8,
-    "max_lb": 1,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "渔业",
-    "zt_cnt": 1,
-    "avg5": 1.0,
-    "delta": 0.0,
-    "max_lb": 1,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "煤炭开采",
-    "zt_cnt": 1,
-    "avg5": 1.0,
-    "delta": 0.0,
-    "max_lb": 1,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
     "industry": "物流",
@@ -52346,76 +52316,96 @@
     "max_lb": 1,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
-    "industry": "电机Ⅱ",
+    "industry": "电子化学",
+    "zt_cnt": 1,
+    "avg5": 2.0,
+    "delta": -1.0,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "电池",
+    "zt_cnt": 1,
+    "avg5": 2.0,
+    "delta": -1.0,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "自动化设",
     "zt_cnt": 1,
     "avg5": 1.0,
     "delta": 0.0,
     "max_lb": 1,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
-    "industry": "纺织制造",
+    "industry": "调味发酵",
     "zt_cnt": 1,
     "avg5": 1.0,
     "delta": 0.0,
     "max_lb": 1,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "装修建材",
-    "zt_cnt": 1,
-    "avg5": 1.3,
-    "delta": -0.3,
-    "max_lb": 1,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "装修装饰",
-    "zt_cnt": 1,
-    "avg5": 1.2,
-    "delta": -0.2,
-    "max_lb": 1,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
-   },
-   {
-    "industry": "通信服务",
-    "zt_cnt": 1,
-    "avg5": 1.2,
-    "delta": -0.2,
-    "max_lb": 1,
-    "streak": 0,
-    "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
    },
    {
     "industry": "通信设备",
     "zt_cnt": 1,
-    "avg5": 3.0,
-    "delta": -2.0,
+    "avg5": 1.6,
+    "delta": -0.6,
     "max_lb": 1,
     "streak": 0,
     "status": "散点",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "铁路公路",
+    "zt_cnt": 1,
+    "avg5": 1.0,
+    "delta": 0.0,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "风电设备",
+    "zt_cnt": 1,
+    "avg5": 1.0,
+    "delta": 0.0,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
+   },
+   {
+    "industry": "黑色家电",
+    "zt_cnt": 1,
+    "avg5": 1.0,
+    "delta": 0.0,
+    "max_lb": 1,
+    "streak": 0,
+    "status": "散点",
+    "date": "2026-11-18"
    }
   ],
   "themesMeta": [
    "汽车零部件",
    "通用设备",
    "光伏设备",
-   "专用设备",
    "一般零售",
-   "半导体"
+   "专用设备",
+   "影视院线"
   ]
  },
  "sourceSnippets": {
