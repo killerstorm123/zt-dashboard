@@ -2,10 +2,10 @@
  "title": "涨停板策略作战看板",
  "subtitle": "次日涨停候选池 · 纸面组合 · 竞价晨报 · 回测回溯 · 推送记录",
  "timezone": "Asia/Shanghai",
- "generatedAt": "2026-11-19T21:16:36+08:00",
+ "generatedAt": "2026-11-20T09:27:32+08:00",
  "freshness": {
   "latestDataDate": "20261119",
-  "latestCapturedAt": "2026-11-19T21:16:18+08:00",
+  "latestCapturedAt": "2026-11-20T09:27:12+08:00",
   "source": "zt_screener 定时任务快照"
  },
  "availableDates": [
@@ -37,6 +37,7 @@
   "2026-11-17",
   "2026-11-18",
   "2026-11-19",
+  "2026-11-20",
   "20260513",
   "20260514",
   "20260515",
@@ -749,92 +750,59 @@
   ],
   "latestMorning": [
    {
-    "date": "2026-11-19",
-    "code": "600410",
-    "name": "华胜天成",
-    "lianban": 2,
-    "score": 61.8,
-    "open_pct": 4.52,
-    "vol_ratio": 16.26,
-    "advice": "接力",
-    "note": "接力区 量比16.3量能足"
-   },
-   {
-    "date": "2026-11-19",
-    "code": "000815",
-    "name": "美利云",
-    "lianban": 1,
-    "score": 49.9,
-    "open_pct": 3.0,
-    "vol_ratio": 16.89,
-    "advice": "接力",
-    "note": "接力区 量比16.9量能足"
-   },
-   {
-    "date": "2026-11-19",
-    "code": "603030",
-    "name": "全筑股份",
-    "lianban": 2,
-    "score": 51.4,
-    "open_pct": 9.86,
-    "vol_ratio": 74.64,
-    "advice": "放弃",
-    "note": "高开9.9%兑现风险区(>7%)"
-   },
-   {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "code": "002771",
     "name": "真视通",
-    "lianban": 2,
-    "score": 69.0,
-    "open_pct": 10.02,
-    "vol_ratio": 18.06,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
+    "lianban": 3,
+    "score": 63.0,
+    "open_pct": 1.04,
+    "vol_ratio": 193.34,
+    "advice": "观望",
+    "note": "争议区1.0%(0-3%)"
    },
    {
-    "date": "2026-11-19",
-    "code": "002685",
-    "name": "华东重机",
-    "lianban": 4,
-    "score": 62.8,
-    "open_pct": 10.04,
-    "vol_ratio": 155.82,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "code": "603324",
     "name": "盛剑科技",
+    "lianban": 3,
+    "score": 48.0,
+    "open_pct": 10.0,
+    "vol_ratio": 49.23,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-20",
+    "code": "002420",
+    "name": "毅昌科技",
+    "lianban": 1,
+    "score": 46.2,
+    "open_pct": 9.97,
+    "vol_ratio": 99.56,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-20",
+    "code": "603030",
+    "name": "全筑股份",
+    "lianban": 3,
+    "score": 63.0,
+    "open_pct": -9.83,
+    "vol_ratio": 102.34,
+    "advice": "回避",
+    "note": "低开-9.8%走弱"
+   },
+   {
+    "date": "2026-11-20",
+    "code": "600156",
+    "name": "华升股份",
     "lianban": 2,
-    "score": 50.8,
-    "open_pct": -0.79,
-    "vol_ratio": 87.68,
+    "score": 45.3,
+    "open_pct": -8.2,
+    "vol_ratio": 25.99,
     "advice": "回避",
-    "note": "低开-0.8%且昨日机构净卖-212万"
-   },
-   {
-    "date": "2026-11-19",
-    "code": "002148",
-    "name": "北纬科技",
-    "lianban": 1,
-    "score": 50.3,
-    "open_pct": -3.36,
-    "vol_ratio": 25.25,
-    "advice": "回避",
-    "note": "低开-3.4%且昨日机构净卖-2,083万"
-   },
-   {
-    "date": "2026-11-19",
-    "code": "603887",
-    "name": "城地香江",
-    "lianban": 1,
-    "score": 49.9,
-    "open_pct": -0.12,
-    "vol_ratio": 14.93,
-    "advice": "回避",
-    "note": "低开-0.1%走弱"
+    "note": "低开-8.2%走弱"
    }
   ],
   "trades": [
@@ -2090,6 +2058,51 @@
    }
   ],
   "pushes": [
+   {
+    "date": "2026-11-19",
+    "time": "21:18",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b60db3ef508a0b0816138ea19775",
+    "note": "20261119 摘要"
+   },
+   {
+    "date": "2026-11-19",
+    "time": "21:17",
+    "task": "evening",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "20261119 报告生成（5只，退潮）"
+   },
+   {
+    "date": "2026-11-19",
+    "time": "21:17",
+    "task": "paper",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "结算净值 ¥833,082（+1.13%），买入 5 只（策略组 ¥931,491 -4.65% 买2只）"
+   },
+   {
+    "date": "2026-11-19",
+    "time": "21:17",
+    "task": "theme",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "板块快照：主线1个/发酵1个"
+   },
+   {
+    "date": "2026-11-19",
+    "time": "21:17",
+    "task": "dashboard",
+    "channel": "github",
+    "status": "ok",
+    "message_id": "-",
+    "note": "Pages 推送"
+   },
    {
     "date": "2026-11-19",
     "time": "09:35",
