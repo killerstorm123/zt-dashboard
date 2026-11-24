@@ -2,10 +2,10 @@
  "title": "涨停板策略作战看板",
  "subtitle": "次日涨停候选池 · 纸面组合 · 竞价晨报 · 回测回溯 · 推送记录",
  "timezone": "Asia/Shanghai",
- "generatedAt": "2026-11-23T21:23:29+08:00",
+ "generatedAt": "2026-11-24T09:27:34+08:00",
  "freshness": {
   "latestDataDate": "20261123",
-  "latestCapturedAt": "2026-11-23T21:16:34+08:00",
+  "latestCapturedAt": "2026-11-24T09:26:54+08:00",
   "source": "zt_screener 定时任务快照"
  },
  "availableDates": [
@@ -39,6 +39,7 @@
   "2026-11-19",
   "2026-11-20",
   "2026-11-23",
+  "2026-11-24",
   "20260515",
   "20260518",
   "20260519",
@@ -919,59 +920,169 @@
   ],
   "latestMorning": [
    {
-    "date": "2026-11-20",
+    "date": "2026-11-24",
     "code": "002771",
     "name": "真视通",
-    "lianban": 3,
-    "score": 63.0,
-    "open_pct": 1.04,
-    "vol_ratio": 193.34,
+    "lianban": 5,
+    "score": 66.9,
+    "open_pct": 2.3,
+    "vol_ratio": 30.18,
     "advice": "观望",
-    "note": "争议区1.0%(0-3%)"
+    "note": "争议区2.3%(0-3%)"
    },
    {
-    "date": "2026-11-20",
-    "code": "603324",
-    "name": "盛剑科技",
-    "lianban": 3,
-    "score": 48.0,
-    "open_pct": 10.0,
-    "vol_ratio": 49.23,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-11-20",
-    "code": "002420",
-    "name": "毅昌科技",
-    "lianban": 1,
-    "score": 46.2,
-    "open_pct": 9.97,
-    "vol_ratio": 99.56,
-    "advice": "买不进",
-    "note": "一字/顶格开盘，竞价无法成交"
-   },
-   {
-    "date": "2026-11-20",
-    "code": "603030",
-    "name": "全筑股份",
-    "lianban": 3,
-    "score": 63.0,
-    "open_pct": -9.83,
-    "vol_ratio": 102.34,
-    "advice": "回避",
-    "note": "低开-9.8%走弱"
-   },
-   {
-    "date": "2026-11-20",
-    "code": "600156",
-    "name": "华升股份",
+    "date": "2026-11-24",
+    "code": "002199",
+    "name": "东晶电子",
     "lianban": 2,
-    "score": 45.3,
-    "open_pct": -8.2,
-    "vol_ratio": 25.99,
+    "score": 54.5,
+    "open_pct": 7.69,
+    "vol_ratio": 54.81,
+    "advice": "放弃",
+    "note": "高开7.7%兑现风险区(>7%)"
+   },
+   {
+    "date": "2026-11-24",
+    "code": "603960",
+    "name": "克来机电",
+    "lianban": 2,
+    "score": 72.0,
+    "open_pct": 10.02,
+    "vol_ratio": 13.42,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-24",
+    "code": "002579",
+    "name": "中京电子",
+    "lianban": 3,
+    "score": 65.5,
+    "open_pct": 9.98,
+    "vol_ratio": 9.86,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-24",
+    "code": "002642",
+    "name": "荣联科技",
+    "lianban": 2,
+    "score": 64.8,
+    "open_pct": 10.01,
+    "vol_ratio": 148.27,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-24",
+    "code": "000593",
+    "name": "德龙汇能",
+    "lianban": 2,
+    "score": 55.0,
+    "open_pct": 10.02,
+    "vol_ratio": 58.57,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-24",
+    "code": "002708",
+    "name": "光洋股份",
+    "lianban": 1,
+    "score": 54.7,
+    "open_pct": 10.0,
+    "vol_ratio": 5.58,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-24",
+    "code": "002164",
+    "name": "宁波东力",
+    "lianban": 1,
+    "score": 53.3,
+    "open_pct": 9.98,
+    "vol_ratio": 4.64,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-24",
+    "code": "002122",
+    "name": "汇洲智能",
+    "lianban": 1,
+    "score": 52.2,
+    "open_pct": 10.14,
+    "vol_ratio": 54.66,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-24",
+    "code": "605018",
+    "name": "长华集团",
+    "lianban": 2,
+    "score": 52.1,
+    "open_pct": 10.01,
+    "vol_ratio": 28.48,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-24",
+    "code": "001229",
+    "name": "魅视科技",
+    "lianban": 1,
+    "score": 51.6,
+    "open_pct": 10.0,
+    "vol_ratio": 13.36,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-24",
+    "code": "001278",
+    "name": "一彬科技",
+    "lianban": 1,
+    "score": 49.9,
+    "open_pct": 9.98,
+    "vol_ratio": 51.17,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-24",
+    "code": "002931",
+    "name": "锋龙股份",
+    "lianban": 1,
+    "score": 49.7,
+    "open_pct": 10.01,
+    "vol_ratio": 11.17,
+    "advice": "买不进",
+    "note": "一字/顶格开盘，竞价无法成交"
+   },
+   {
+    "date": "2026-11-24",
+    "code": "603004",
+    "name": "鼎龙科技",
+    "lianban": 2,
+    "score": 50.2,
+    "open_pct": -1.0,
+    "vol_ratio": 24.39,
     "advice": "回避",
-    "note": "低开-8.2%走弱"
+    "note": "低开-1.0%走弱"
+   },
+   {
+    "date": "2026-11-24",
+    "code": "920690",
+    "name": "捷众科技",
+    "lianban": 1,
+    "score": 51.2,
+    "open_pct": null,
+    "vol_ratio": null,
+    "advice": "数据缺失",
+    "note": "竞价数据未出"
    }
   ],
   "trades": [
@@ -2277,6 +2388,51 @@
    }
   ],
   "pushes": [
+   {
+    "date": "2026-11-23",
+    "time": "21:25",
+    "task": "evening",
+    "channel": "feishu",
+    "status": "ok",
+    "message_id": "om_x100b7f77a5b918a0df079d363dbf423",
+    "note": "20261123 摘要"
+   },
+   {
+    "date": "2026-11-23",
+    "time": "21:24",
+    "task": "evening",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "20261123 报告生成（15只，高潮）"
+   },
+   {
+    "date": "2026-11-23",
+    "time": "21:24",
+    "task": "paper",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "策略净值 ¥931,491（+0.00%），买入 0 只（无晨报未交易）；基准净值 ¥914,338（+7.56%）买入2只"
+   },
+   {
+    "date": "2026-11-23",
+    "time": "21:24",
+    "task": "theme",
+    "channel": "report",
+    "status": "ok",
+    "message_id": "-",
+    "note": "板块快照：主线0个/发酵5个"
+   },
+   {
+    "date": "2026-11-23",
+    "time": "21:24",
+    "task": "dashboard",
+    "channel": "github",
+    "status": "ok",
+    "message_id": "-",
+    "note": "Pages 推送"
+   },
    {
     "date": "2026-11-20",
     "time": "21:18",
